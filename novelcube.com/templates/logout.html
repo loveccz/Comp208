@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel Reader, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>  <!--changed-->
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>  <!--changed-->
+
+  </head>
+  
+  <body>
+    <div class="LoginOut">
+        <div class="bg_White">
+            <div class="subHeader">
+                <div class="BarTit">Logout Successful</div>
+                <a href="javascript:" class="iconRet" onclick="goBack()"></a>
+            </div>
+            <!--head end-->
+            <div class="outIcon"></div>
+            <p class="p1">You have successfully logged out</p>
+            <p class="p2">We look forward to seeing you again!</p>
+            <a href="/" class="outBtn">Back to Homepage</a>
+
+        </div>
+        <script type="text/javascript">
+            var i_url = "http://wanglei.i.dmzj.com/";
+        </script>
+    </div>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1d1ba6435e70528fbdfb02bba4e50e9a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+</html>

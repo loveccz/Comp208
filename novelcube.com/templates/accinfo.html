@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header a {
+            width: 24px;
+            height: 24px;
+        }
+
+        .photo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .photo img {
+            border-radius: 50%;
+            width: 135px;
+            height: 135px;
+            background: #ccc;
+        }
+
+        .account-info {
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .account-info label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .account-info input {
+            background-color: #d6f8ff;
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="javascript:history.back()" title="Go back">
+            <img src="{{ url_for('static', filename='images/personal/Group177.png') }}">
+        </a>
+    </div>
+    <div class="photo">
+        <img src="{{ url_for('static', filename='images/Users/' ~ user.picid ~ '.jpg') }}" alt="User Photo" onerror="this.src=''">
+    </div>
+    <form action="{{ url_for('accinfo') }}" method="post">
+        <div class="account-info">
+            <label for="name">UserName</label>
+            <input type="text" id="name" value="{{ user.username }}">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" value="{{ user.email }}" readonly>
+
+            <label for="phone">MobilePhone</label>
+            <input type="tel" id="phone" value="{{ user.mobile_number }}">
+
+            <label for="FullName">FullName</label>
+            <input type="text" id="FullName" value="{{ user.full_name }}">
+
+            <label for="ID">ID</label>
+            <input type="text" id="ID" value="{{ user.id }}">
+        </div>
+    </form>
+</body>
+</html>

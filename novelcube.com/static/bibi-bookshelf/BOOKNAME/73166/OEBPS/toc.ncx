@@ -1,0 +1,2272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="http://www.gutenberg.org/73166"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="Ebookmaker 0.12.41 by Project Gutenberg"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Fornander collection of Hawaiian antiquities and folk-lore, Volume 2 (of 3)</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="np-1" playOrder="1">
+      <navLabel>
+        <text>MEMOIRS OF THE BERNICE PAUAHI BISHOP MUSEUM OF POLYNESIAN ETHNOLOGY AND NATURAL HISTORY VOLUME V</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-0.htm.html#pgepubid00000"/>
+    </navPoint>
+    <navPoint id="np-2" playOrder="2">
+      <navLabel>
+        <text>FORNANDER COLLECTION OF HAWAIIAN ANTIQUITIES AND FOLK-LORE THE HAWAIIANS’ ACCOUNT OF THE FORMATION OF THEIR ISLANDS AND ORIGIN OF THEIR RACE, WITH THE TRADITIONS OF THEIR MIGRATIONS, Etc., AS GATHERED FROM ORIGINAL SOURCES</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-0.htm.html#pgepubid00001"/>
+    </navPoint>
+    <navPoint id="np-3" playOrder="3">
+      <navLabel>
+        <text>SECOND SERIES Memoirs of the Bernice Pauahi Bishop Museum Volume V</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-0.htm.html#pgepubid00002"/>
+      <navPoint id="np-4" playOrder="4">
+        <navLabel>
+          <text>CONTENTS.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-0.htm.html#pgepubid00003"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-5" playOrder="5">
+      <navLabel>
+        <text>FORNANDER COLLECTION OF HAWAIIAN ANTIQUITIES AND FOLK-LORE THE HAWAIIANS’ ACCOUNT OF THE FORMATION OF THEIR ISLANDS AND ORIGIN OF THEIR RACE WITH THE TRADITIONS OF THEIR MIGRATIONS, Etc., AS GATHERED FROM ORIGINAL SOURCES</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-2.htm.html#pgepubid00004"/>
+    </navPoint>
+    <navPoint id="np-6" playOrder="6">
+      <navLabel>
+        <text>Memoirs of the Bernice Pauahi Bishop Museum Volume V—Part I</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-2.htm.html#pgepubid00005"/>
+      <navPoint id="np-7" playOrder="7">
+        <navLabel>
+          <text>CONTENTS</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-2.htm.html#pgepubid00006"/>
+      </navPoint>
+      <navPoint id="np-8" playOrder="8">
+        <navLabel>
+          <text>PREFACE.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-2.htm.html#pgepubid00007"/>
+      </navPoint>
+      <navPoint id="np-9" playOrder="9">
+        <navLabel>
+          <text>Legend of Kawelo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00008"/>
+      </navPoint>
+      <navPoint id="np-10" playOrder="10">
+        <navLabel>
+          <text>He Moolelo no Kawelo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00009"/>
+        <navPoint id="np-11" playOrder="11">
+          <navLabel>
+            <text>CHAPTER I. Birth and Early Life of Kawelo.—His Change to Oahu and Fame Attained There.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00010"/>
+        </navPoint>
+        <navPoint id="np-12" playOrder="12">
+          <navLabel>
+            <text>MOKUNA I. Ka Hanau ana a me ka Wa Koliuliu o ko Kawelo Noho ana.—Kona Hele ana i Oahu a me ka Loaa ana o ka Hanohano Malaila.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00011"/>
+        </navPoint>
+        <navPoint id="np-13" playOrder="13">
+          <navLabel>
+            <text>CHAPTER II. Relating to Kalonaikahailaau.—Kawelo Equips Himself to Fight Aikanaka.—Arrival at Kauai.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00012"/>
+        </navPoint>
+        <navPoint id="np-14" playOrder="14">
+          <navLabel>
+            <text>MOKUNA II. Hoomakaukau o Kawelo Iaia iho no ke Kaua ana ia Aikanaka.—Ka Hoea ana i Wailua, Kauai.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00013"/>
+        </navPoint>
+        <navPoint id="np-15" playOrder="15">
+          <navLabel>
+            <text>CHAPTER III. Commencement of the Battle Between Kawelo and the People of Kauai.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00014"/>
+        </navPoint>
+        <navPoint id="np-16" playOrder="16">
+          <navLabel>
+            <text>MOKUNA III. Hoomaka ke Kaua a Kawelo me ko Kauai Poe.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00015"/>
+        </navPoint>
+        <navPoint id="np-17" playOrder="17">
+          <navLabel>
+            <text>CHAPTER IV. Relating to Kaehuikiawakea.—Kaihupepenuiamouo and Muno.—Walaheeikio and Moomooikio.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00016"/>
+        </navPoint>
+        <navPoint id="np-18" playOrder="18">
+          <navLabel>
+            <text>MOKUNA IV. E Pili ana no Kaehuikiawakea.—No Kaihupepenuiamouo a me Muno.—No Walaheeikio a me Moomooikio.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00017"/>
+        </navPoint>
+        <navPoint id="np-19" playOrder="19">
+          <navLabel>
+            <text>CHAPTER V. Relating to Kahakaloa.—His Death by Kawelo.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00018"/>
+        </navPoint>
+        <navPoint id="np-20" playOrder="20">
+          <navLabel>
+            <text>MOKUNA V. No Kahakaloa.—Kona Make ana ma o Kawelo Ala.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00019"/>
+        </navPoint>
+        <navPoint id="np-21" playOrder="21">
+          <navLabel>
+            <text>CHAPTER VI. Relating to Kauahoa.—Kawelo Fears to Attack Him.—Seeks to Win Him by a Chant.—Kauahoa Replies.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00020"/>
+        </navPoint>
+        <navPoint id="np-22" playOrder="22">
+          <navLabel>
+            <text>MOKUNA VI. Hopohopo o Kawelo no ka Paio ana Iaia.—Imi i Wahi e Lilo mai ai Oia ma ke Mele.—Pane o Kauahoa.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00021"/>
+        </navPoint>
+        <navPoint id="np-23" playOrder="23">
+          <navLabel>
+            <text>CHAPTER VII. The Size of Kauahoa.—Is Killed by Kawelo in a Club Encounter.—Kawelo Vanquishes Aikanaka.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00022"/>
+        </navPoint>
+        <navPoint id="np-24" playOrder="24">
+          <navLabel>
+            <text>MOKUNA VII. Ka Nui o Kauahoa.—Pepehi ia e Kawelo me ka Newa.—Hee o Aikanaka ia Kawelo.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00023"/>
+        </navPoint>
+        <navPoint id="np-25" playOrder="25">
+          <navLabel>
+            <text>CHAPTER VIII. The Division of the Lands of Kauai.—Aikanaka Becomes a Tiller of Ground.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00024"/>
+        </navPoint>
+        <navPoint id="np-26" playOrder="26">
+          <navLabel>
+            <text>MOKUNA VIII. Ka Mahele ana o na Aina o Kauai.—Lilo o Aikanaka i Mea Mahiai.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00025"/>
+        </navPoint>
+        <navPoint id="np-27" playOrder="27">
+          <navLabel>
+            <text>CHAPTER IX. Kaeleha and Aikanaka Rebel Against Kawelo.—Their Battle and Supposed Death of Kawelo.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00026"/>
+        </navPoint>
+        <navPoint id="np-28" playOrder="28">
+          <navLabel>
+            <text>MOKUNA IX. Ke Kipi ana o Kaeleha, a me Aikanaka ia Kawelo.—Ko Lakou Kaua ana a me ka Manaoia ana ua Make o Kawelo.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00027"/>
+        </navPoint>
+        <navPoint id="np-29" playOrder="29">
+          <navLabel>
+            <text>CHAPTER X. The Temple of Aikanaka.—How Kawelo Came to Life Again.—He Slaughters His Opponents and Becomes Again Ruler of Kauai.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00028"/>
+        </navPoint>
+        <navPoint id="np-30" playOrder="30">
+          <navLabel>
+            <text>MOKUNA X. Ka Unu a Aikanaka.—Ola hou o Kawelo.—Luku oia i Kona mau Hoa-Paonioni, a Lilo Hou Oia i Alii no Kauai.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-4.htm.html#pgepubid00029"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-31" playOrder="31">
+        <navLabel>
+          <text>Story of Pakaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-5.htm.html#pgepubid00030"/>
+      </navPoint>
+      <navPoint id="np-32" playOrder="32">
+        <navLabel>
+          <text>He Kaao no Pakaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-5.htm.html#pgepubid00031"/>
+      </navPoint>
+      <navPoint id="np-33" playOrder="33">
+        <navLabel>
+          <text>Legend of Kuapakaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00032"/>
+      </navPoint>
+      <navPoint id="np-34" playOrder="34">
+        <navLabel>
+          <text>He Kaao no Kuapakaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00033"/>
+        <navPoint id="np-35" playOrder="35">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00034"/>
+        </navPoint>
+        <navPoint id="np-36" playOrder="36">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00035"/>
+        </navPoint>
+        <navPoint id="np-37" playOrder="37">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00036"/>
+        </navPoint>
+        <navPoint id="np-38" playOrder="38">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00037"/>
+          <navPoint id="np-39" playOrder="39">
+            <navLabel>
+              <text>THE WINDS OF HAWAII.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00038"/>
+          </navPoint>
+          <navPoint id="np-40" playOrder="40">
+            <navLabel>
+              <text>NA MAKANI O HAWAII.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00039"/>
+          </navPoint>
+          <navPoint id="np-41" playOrder="41">
+            <navLabel>
+              <text>THE WINDS OF KAUAI AND NIIHAU.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00040"/>
+          </navPoint>
+          <navPoint id="np-42" playOrder="42">
+            <navLabel>
+              <text>NA MAKANI O KAUAI ME NIIHAU.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00041"/>
+          </navPoint>
+          <navPoint id="np-43" playOrder="43">
+            <navLabel>
+              <text>THE WIND OF KAULA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00042"/>
+          </navPoint>
+          <navPoint id="np-44" playOrder="44">
+            <navLabel>
+              <text>NA MAKANI O KAULA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00043"/>
+          </navPoint>
+          <navPoint id="np-45" playOrder="45">
+            <navLabel>
+              <text>THE WINDS OF MAUI AND MOLOKAI.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00044"/>
+          </navPoint>
+          <navPoint id="np-46" playOrder="46">
+            <navLabel>
+              <text>NA MAKANI O MAUI ME MOLOKAI.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00045"/>
+          </navPoint>
+          <navPoint id="np-47" playOrder="47">
+            <navLabel>
+              <text>THE WINDS OF HALAWA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00046"/>
+          </navPoint>
+          <navPoint id="np-48" playOrder="48">
+            <navLabel>
+              <text>NA MAKANI O HALAWA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00047"/>
+          </navPoint>
+          <navPoint id="np-49" playOrder="49">
+            <navLabel>
+              <text>THE NAMES OF THE MEN.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00048"/>
+          </navPoint>
+          <navPoint id="np-50" playOrder="50">
+            <navLabel>
+              <text>KA INOA O NA KANAKA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00049"/>
+          </navPoint>
+          <navPoint id="np-51" playOrder="51">
+            <navLabel>
+              <text>NA KANAKA PALUA O KA WAA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00050"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="np-52" playOrder="52">
+          <navLabel>
+            <text>CHAPTER III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00051"/>
+        </navPoint>
+        <navPoint id="np-53" playOrder="53">
+          <navLabel>
+            <text>MOKUNA III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00052"/>
+        </navPoint>
+        <navPoint id="np-54" playOrder="54">
+          <navLabel>
+            <text>CHAPTER IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00053"/>
+        </navPoint>
+        <navPoint id="np-55" playOrder="55">
+          <navLabel>
+            <text>MOKUNA IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00054"/>
+          <navPoint id="np-56" playOrder="56">
+            <navLabel>
+              <text>THE NAMES OF THE DISTRICTS.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00055"/>
+          </navPoint>
+          <navPoint id="np-57" playOrder="57">
+            <navLabel>
+              <text>NA INOA O NA AINA.</text>
+            </navLabel>
+            <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00056"/>
+          </navPoint>
+        </navPoint>
+        <navPoint id="np-58" playOrder="58">
+          <navLabel>
+            <text>CHAPTER V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00057"/>
+        </navPoint>
+        <navPoint id="np-59" playOrder="59">
+          <navLabel>
+            <text>MOKUNA V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00058"/>
+        </navPoint>
+        <navPoint id="np-60" playOrder="60">
+          <navLabel>
+            <text>CHAPTER VI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00059"/>
+        </navPoint>
+        <navPoint id="np-61" playOrder="61">
+          <navLabel>
+            <text>MOKUNA VI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-6.htm.html#pgepubid00060"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-62" playOrder="62">
+        <navLabel>
+          <text>Legend of Palila.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-7.htm.html#pgepubid00061"/>
+      </navPoint>
+      <navPoint id="np-63" playOrder="63">
+        <navLabel>
+          <text>He Kaao no Palila.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-7.htm.html#pgepubid00062"/>
+      </navPoint>
+      <navPoint id="np-64" playOrder="64">
+        <navLabel>
+          <text>Legend of Puniakaia.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-8.htm.html#pgepubid00063"/>
+      </navPoint>
+      <navPoint id="np-65" playOrder="65">
+        <navLabel>
+          <text>He Kaao no Puniakaia.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-8.htm.html#pgepubid00064"/>
+      </navPoint>
+      <navPoint id="np-66" playOrder="66">
+        <navLabel>
+          <text>Legend of Maniniholokuaua and Keliimalolo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-8.htm.html#pgepubid00065"/>
+      </navPoint>
+      <navPoint id="np-67" playOrder="67">
+        <navLabel>
+          <text>He Kaao no Maniniholokuaua a me Keliimalolo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-8.htm.html#pgepubid00066"/>
+      </navPoint>
+      <navPoint id="np-68" playOrder="68">
+        <navLabel>
+          <text>Legend of Opelemoemoe.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00067"/>
+      </navPoint>
+      <navPoint id="np-69" playOrder="69">
+        <navLabel>
+          <text>He Kaao no Opelemoemoe.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00068"/>
+      </navPoint>
+      <navPoint id="np-70" playOrder="70">
+        <navLabel>
+          <text>Legend of Kulepe.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00069"/>
+      </navPoint>
+      <navPoint id="np-71" playOrder="71">
+        <navLabel>
+          <text>He Kaao no Kulepe.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00070"/>
+      </navPoint>
+      <navPoint id="np-72" playOrder="72">
+        <navLabel>
+          <text>Legend of Kihapiilani.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00071"/>
+      </navPoint>
+      <navPoint id="np-73" playOrder="73">
+        <navLabel>
+          <text>He Kaao no Kihapiilani.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00072"/>
+      </navPoint>
+      <navPoint id="np-74" playOrder="74">
+        <navLabel>
+          <text>Legend of Hiku and Kawelu.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00073"/>
+      </navPoint>
+      <navPoint id="np-75" playOrder="75">
+        <navLabel>
+          <text>He Kaao no Hiku a me Kawelu.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-9.htm.html#pgepubid00074"/>
+      </navPoint>
+      <navPoint id="np-76" playOrder="76">
+        <navLabel>
+          <text>Legend of Kahalaopuna.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00075"/>
+      </navPoint>
+      <navPoint id="np-77" playOrder="77">
+        <navLabel>
+          <text>He Kaao no Kahalaopuna.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00076"/>
+      </navPoint>
+      <navPoint id="np-78" playOrder="78">
+        <navLabel>
+          <text>Legend of Uweuwelekehau.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00077"/>
+      </navPoint>
+      <navPoint id="np-79" playOrder="79">
+        <navLabel>
+          <text>He Kaao no Uweuwelekehau.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00078"/>
+      </navPoint>
+      <navPoint id="np-80" playOrder="80">
+        <navLabel>
+          <text>Legend of Kalaepuni and Kalaehina.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00079"/>
+      </navPoint>
+      <navPoint id="np-81" playOrder="81">
+        <navLabel>
+          <text>Kaao no Kalaepuni a me Kalaehina.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00080"/>
+        <navPoint id="np-82" playOrder="82">
+          <navLabel>
+            <text>CHAPTER I. RELATING TO KALAEPUNI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00081"/>
+        </navPoint>
+        <navPoint id="np-83" playOrder="83">
+          <navLabel>
+            <text>MOKUNA I. NO KALAEPUNI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00082"/>
+        </navPoint>
+        <navPoint id="np-84" playOrder="84">
+          <navLabel>
+            <text>CHAPTER II. Relating to Kalaehina.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00083"/>
+        </navPoint>
+        <navPoint id="np-85" playOrder="85">
+          <navLabel>
+            <text>MOKUNA II. NO KALAEHINA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-10.htm.html#pgepubid00084"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-86" playOrder="86">
+        <navLabel>
+          <text>Legend of Kapakohana.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-11.htm.html#pgepubid00085"/>
+      </navPoint>
+      <navPoint id="np-87" playOrder="87">
+        <navLabel>
+          <text>Kaao no Kapakohana.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-11.htm.html#pgepubid00086"/>
+      </navPoint>
+      <navPoint id="np-88" playOrder="88">
+        <navLabel>
+          <text>Legend of Kapunohu.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-11.htm.html#pgepubid00087"/>
+      </navPoint>
+      <navPoint id="np-89" playOrder="89">
+        <navLabel>
+          <text>He Kaao no Kapunohu.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-11.htm.html#pgepubid00088"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-90" playOrder="90">
+      <navLabel>
+        <text>FORNANDER COLLECTION OF HAWAIIAN ANTIQUITIES AND FOLK-LORE THE HAWAIIANS’ ACCOUNT OF THE FORMATION OF THEIR ISLANDS AND ORIGIN OF THEIR RACE, WITH THE TRADITIONS OF THEIR MIGRATIONS, Etc., AS GATHERED FROM ORIGINAL SOURCES</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-12.htm.html#pgepubid00089"/>
+    </navPoint>
+    <navPoint id="np-91" playOrder="91">
+      <navLabel>
+        <text>Memoirs of the Bernice Pauahi Bishop Museum Volume V—Part II</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-12.htm.html#pgepubid00090"/>
+      <navPoint id="np-92" playOrder="92">
+        <navLabel>
+          <text>CONTENTS</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-12.htm.html#pgepubid00091"/>
+      </navPoint>
+      <navPoint id="np-93" playOrder="93">
+        <navLabel>
+          <text>PART II</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00092"/>
+      </navPoint>
+      <navPoint id="np-94" playOrder="94">
+        <navLabel>
+          <text>Legend of Halemano.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00093"/>
+      </navPoint>
+      <navPoint id="np-95" playOrder="95">
+        <navLabel>
+          <text>Kaao no Halemano.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00094"/>
+        <navPoint id="np-96" playOrder="96">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00095"/>
+        </navPoint>
+        <navPoint id="np-97" playOrder="97">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00096"/>
+        </navPoint>
+        <navPoint id="np-98" playOrder="98">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00097"/>
+        </navPoint>
+        <navPoint id="np-99" playOrder="99">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00098"/>
+        </navPoint>
+        <navPoint id="np-100" playOrder="100">
+          <navLabel>
+            <text>CHAPTER III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00099"/>
+        </navPoint>
+        <navPoint id="np-101" playOrder="101">
+          <navLabel>
+            <text>MOKUNA III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00100"/>
+        </navPoint>
+        <navPoint id="np-102" playOrder="102">
+          <navLabel>
+            <text>CHAPTER IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00101"/>
+        </navPoint>
+        <navPoint id="np-103" playOrder="103">
+          <navLabel>
+            <text>MOKUNA IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00102"/>
+        </navPoint>
+        <navPoint id="np-104" playOrder="104">
+          <navLabel>
+            <text>CHAPTER V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00103"/>
+        </navPoint>
+        <navPoint id="np-105" playOrder="105">
+          <navLabel>
+            <text>MOKUNA V</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-14.htm.html#pgepubid00104"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-106" playOrder="106">
+        <navLabel>
+          <text>Legend of Keaweikekahialii.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-15.htm.html#pgepubid00105"/>
+      </navPoint>
+      <navPoint id="np-107" playOrder="107">
+        <navLabel>
+          <text>Kaao no Keaweikekahialii.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-15.htm.html#pgepubid00106"/>
+      </navPoint>
+      <navPoint id="np-108" playOrder="108">
+        <navLabel>
+          <text>Legend of Hinaaimalama.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-16.htm.html#pgepubid00107"/>
+      </navPoint>
+      <navPoint id="np-109" playOrder="109">
+        <navLabel>
+          <text>Kaao no Hinaaimalama.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-16.htm.html#pgepubid00108"/>
+      </navPoint>
+      <navPoint id="np-110" playOrder="110">
+        <navLabel>
+          <text>Legend of Maikoha.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-17.htm.html#pgepubid00109"/>
+      </navPoint>
+      <navPoint id="np-111" playOrder="111">
+        <navLabel>
+          <text>Kaao no Maikoha.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-17.htm.html#pgepubid00110"/>
+      </navPoint>
+      <navPoint id="np-112" playOrder="112">
+        <navLabel>
+          <text>Legend of Namakaokapaoo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-18.htm.html#pgepubid00111"/>
+      </navPoint>
+      <navPoint id="np-113" playOrder="113">
+        <navLabel>
+          <text>Kaao no Namakaokapaoo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-18.htm.html#pgepubid00112"/>
+        <navPoint id="np-114" playOrder="114">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-18.htm.html#pgepubid00113"/>
+        </navPoint>
+        <navPoint id="np-115" playOrder="115">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-18.htm.html#pgepubid00114"/>
+        </navPoint>
+        <navPoint id="np-116" playOrder="116">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-18.htm.html#pgepubid00115"/>
+        </navPoint>
+        <navPoint id="np-117" playOrder="117">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-18.htm.html#pgepubid00116"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-118" playOrder="118">
+        <navLabel>
+          <text>Legend of Iwa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-19.htm.html#pgepubid00117"/>
+      </navPoint>
+      <navPoint id="np-119" playOrder="119">
+        <navLabel>
+          <text>Kaao no Iwa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-19.htm.html#pgepubid00118"/>
+      </navPoint>
+      <navPoint id="np-120" playOrder="120">
+        <navLabel>
+          <text>Legend of Punia.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-20.htm.html#pgepubid00119"/>
+      </navPoint>
+      <navPoint id="np-121" playOrder="121">
+        <navLabel>
+          <text>Kaao no Punia.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-20.htm.html#pgepubid00120"/>
+      </navPoint>
+      <navPoint id="np-122" playOrder="122">
+        <navLabel>
+          <text>Legend of Pamano.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-21.htm.html#pgepubid00121"/>
+      </navPoint>
+      <navPoint id="np-123" playOrder="123">
+        <navLabel>
+          <text>Kaao no Pamano.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-21.htm.html#pgepubid00122"/>
+        <navPoint id="np-124" playOrder="124">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-21.htm.html#pgepubid00123"/>
+        </navPoint>
+        <navPoint id="np-125" playOrder="125">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-21.htm.html#pgepubid00124"/>
+        </navPoint>
+        <navPoint id="np-126" playOrder="126">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-21.htm.html#pgepubid00125"/>
+        </navPoint>
+        <navPoint id="np-127" playOrder="127">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-21.htm.html#pgepubid00126"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-128" playOrder="128">
+        <navLabel>
+          <text>Tradition of Kamapuaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00127"/>
+      </navPoint>
+      <navPoint id="np-129" playOrder="129">
+        <navLabel>
+          <text>Kaao no Kamapuaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00128"/>
+        <navPoint id="np-130" playOrder="130">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00129"/>
+        </navPoint>
+        <navPoint id="np-131" playOrder="131">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00130"/>
+        </navPoint>
+        <navPoint id="np-132" playOrder="132">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00131"/>
+        </navPoint>
+        <navPoint id="np-133" playOrder="133">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00132"/>
+        </navPoint>
+        <navPoint id="np-134" playOrder="134">
+          <navLabel>
+            <text>CHAPTER III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00133"/>
+        </navPoint>
+        <navPoint id="np-135" playOrder="135">
+          <navLabel>
+            <text>MOKUNA III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00134"/>
+        </navPoint>
+        <navPoint id="np-136" playOrder="136">
+          <navLabel>
+            <text>CHAPTER IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00135"/>
+        </navPoint>
+        <navPoint id="np-137" playOrder="137">
+          <navLabel>
+            <text>MOKUNA IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00136"/>
+        </navPoint>
+        <navPoint id="np-138" playOrder="138">
+          <navLabel>
+            <text>CHAPTER V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00137"/>
+        </navPoint>
+        <navPoint id="np-139" playOrder="139">
+          <navLabel>
+            <text>MOKUNA V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00138"/>
+        </navPoint>
+        <navPoint id="np-140" playOrder="140">
+          <navLabel>
+            <text>CHAPTER VI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00139"/>
+        </navPoint>
+        <navPoint id="np-141" playOrder="141">
+          <navLabel>
+            <text>MOKUNA VI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00140"/>
+        </navPoint>
+        <navPoint id="np-142" playOrder="142">
+          <navLabel>
+            <text>CHAPTER VII.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00141"/>
+        </navPoint>
+        <navPoint id="np-143" playOrder="143">
+          <navLabel>
+            <text>MOKUNA VII.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-22.htm.html#pgepubid00142"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-144" playOrder="144">
+        <navLabel>
+          <text>Legend of Kaulu.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-23.htm.html#pgepubid00143"/>
+      </navPoint>
+      <navPoint id="np-145" playOrder="145">
+        <navLabel>
+          <text>Kaao no Kaulu.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-23.htm.html#pgepubid00144"/>
+      </navPoint>
+      <navPoint id="np-146" playOrder="146">
+        <navLabel>
+          <text>Story of Palila.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-24.htm.html#pgepubid00145"/>
+      </navPoint>
+      <navPoint id="np-147" playOrder="147">
+        <navLabel>
+          <text>Kaao no Palila.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-24.htm.html#pgepubid00146"/>
+      </navPoint>
+      <navPoint id="np-148" playOrder="148">
+        <navLabel>
+          <text>Story of Piimaiwaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-25.htm.html#pgepubid00147"/>
+      </navPoint>
+      <navPoint id="np-149" playOrder="149">
+        <navLabel>
+          <text>Kaao no Piimaiwaa.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-25.htm.html#pgepubid00148"/>
+      </navPoint>
+      <navPoint id="np-150" playOrder="150">
+        <navLabel>
+          <text>Legend of Kepakailiula.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00149"/>
+      </navPoint>
+      <navPoint id="np-151" playOrder="151">
+        <navLabel>
+          <text>Kaao no Kepakailiula.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00150"/>
+        <navPoint id="np-152" playOrder="152">
+          <navLabel>
+            <text>CHAPTER I. Search for a Suitable Wife.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00151"/>
+        </navPoint>
+        <navPoint id="np-153" playOrder="153">
+          <navLabel>
+            <text>MOKUNA I. Huli no ka Wahine Kupono.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00152"/>
+        </navPoint>
+        <navPoint id="np-154" playOrder="154">
+          <navLabel>
+            <text>CHAPTER II. RELATING TO KAKAALANEO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00153"/>
+        </navPoint>
+        <navPoint id="np-155" playOrder="155">
+          <navLabel>
+            <text>MOKUNA II. No Kakaalaneo.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00154"/>
+        </navPoint>
+        <navPoint id="np-156" playOrder="156">
+          <navLabel>
+            <text>CHAPTER III. THE BATTLE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00155"/>
+        </navPoint>
+        <navPoint id="np-157" playOrder="157">
+          <navLabel>
+            <text>MOKUNA III. KE KAUA ANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00156"/>
+        </navPoint>
+        <navPoint id="np-158" playOrder="158">
+          <navLabel>
+            <text>CHAPTER IV. Relating to Kaikipaananea.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00157"/>
+        </navPoint>
+        <navPoint id="np-159" playOrder="159">
+          <navLabel>
+            <text>MOKUNA IV. No Kaikipaananea.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00158"/>
+        </navPoint>
+        <navPoint id="np-160" playOrder="160">
+          <navLabel>
+            <text>CHAPTER V. Relating to Kukaea.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00159"/>
+        </navPoint>
+        <navPoint id="np-161" playOrder="161">
+          <navLabel>
+            <text>MOKUNA V. No Kukaea.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-26.htm.html#pgepubid00160"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-162" playOrder="162">
+        <navLabel>
+          <text>Stories from the Legend of Laieikawai.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00161"/>
+      </navPoint>
+      <navPoint id="np-163" playOrder="163">
+        <navLabel>
+          <text>Na Moolelo mai ka Kaao no Laieikawai.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00162"/>
+        <navPoint id="np-164" playOrder="164">
+          <navLabel>
+            <text>CHAPTER I. Relating to Aiohikupua.—To Haunaka.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00163"/>
+        </navPoint>
+        <navPoint id="np-165" playOrder="165">
+          <navLabel>
+            <text>MOKUNA I. No Aiohikupua.—No Haunaka.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00164"/>
+        </navPoint>
+        <navPoint id="np-166" playOrder="166">
+          <navLabel>
+            <text>CHAPTER II. Relating to Kihanuilulumoku.—Ulili and Aikeehiale.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00165"/>
+        </navPoint>
+        <navPoint id="np-167" playOrder="167">
+          <navLabel>
+            <text>MOKUNA II. No Kihanuilulumoku.—Ulili a me Aikeehiale.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00166"/>
+        </navPoint>
+        <navPoint id="np-168" playOrder="168">
+          <navLabel>
+            <text>CHAPTER III. Relating to Kalahumoku.—Battle Between the Dog and Lizard.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00167"/>
+        </navPoint>
+        <navPoint id="np-169" playOrder="169">
+          <navLabel>
+            <text>MOKUNA III. No Kalahumoku.—Ke Kaua Ana o ka Ilio me ka Moo.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-27.htm.html#pgepubid00168"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-170" playOrder="170">
+        <navLabel>
+          <text>Brief Stories of Ghosts and Cunning.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00169"/>
+      </navPoint>
+      <navPoint id="np-171" playOrder="171">
+        <navLabel>
+          <text>Moolelo Pokole no na Uhane Lapu ame na Hana Maalea.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00170"/>
+        <navPoint id="np-172" playOrder="172">
+          <navLabel>
+            <text>Relating to Wakaina.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00171"/>
+        </navPoint>
+        <navPoint id="np-173" playOrder="173">
+          <navLabel>
+            <text>No Wakaina.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00172"/>
+        </navPoint>
+        <navPoint id="np-174" playOrder="174">
+          <navLabel>
+            <text>RELATING TO KAPUNOHU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00173"/>
+        </navPoint>
+        <navPoint id="np-175" playOrder="175">
+          <navLabel>
+            <text>NO KAPUNOHU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00174"/>
+        </navPoint>
+        <navPoint id="np-176" playOrder="176">
+          <navLabel>
+            <text>WAAWAAIKINAAUPO AND WAAWAAIKINAAUAO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00175"/>
+        </navPoint>
+        <navPoint id="np-177" playOrder="177">
+          <navLabel>
+            <text>WAAWAAIKINAAUPO A ME WAAWAAIKINAAUAO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00176"/>
+        </navPoint>
+        <navPoint id="np-178" playOrder="178">
+          <navLabel>
+            <text>RELATING TO LEPE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00177"/>
+        </navPoint>
+        <navPoint id="np-179" playOrder="179">
+          <navLabel>
+            <text>NO LEPE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00178"/>
+        </navPoint>
+        <navPoint id="np-180" playOrder="180">
+          <navLabel>
+            <text>RELATING TO MAIAUHAALENALENAUPENA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00179"/>
+        </navPoint>
+        <navPoint id="np-181" playOrder="181">
+          <navLabel>
+            <text>NO MAIAUHAALENALENAUPENA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00180"/>
+        </navPoint>
+        <navPoint id="np-182" playOrder="182">
+          <navLabel>
+            <text>RELATING TO KUAUAMOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00181"/>
+        </navPoint>
+        <navPoint id="np-183" playOrder="183">
+          <navLabel>
+            <text>NO KUAUAMOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00182"/>
+        </navPoint>
+        <navPoint id="np-184" playOrder="184">
+          <navLabel>
+            <text>RELATING TO HANAAUMOE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00183"/>
+        </navPoint>
+        <navPoint id="np-185" playOrder="185">
+          <navLabel>
+            <text>NO HANAAUMOE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00184"/>
+        </navPoint>
+        <navPoint id="np-186" playOrder="186">
+          <navLabel>
+            <text>RELATING TO HALALII.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00185"/>
+        </navPoint>
+        <navPoint id="np-187" playOrder="187">
+          <navLabel>
+            <text>NO HALALII.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00186"/>
+        </navPoint>
+        <navPoint id="np-188" playOrder="188">
+          <navLabel>
+            <text>RELATING TO THE DEATH OF HALALII AND ALL THE GHOSTS.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00187"/>
+        </navPoint>
+        <navPoint id="np-189" playOrder="189">
+          <navLabel>
+            <text>NO KA MAKE ANA O HALALII A ME NA AKUA A PAU LOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00188"/>
+        </navPoint>
+        <navPoint id="np-190" playOrder="190">
+          <navLabel>
+            <text>RELATING TO ELEIO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00189"/>
+        </navPoint>
+        <navPoint id="np-191" playOrder="191">
+          <navLabel>
+            <text>NO ELEIO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00190"/>
+        </navPoint>
+        <navPoint id="np-192" playOrder="192">
+          <navLabel>
+            <text>RELATING TO KANAIAHUEA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00191"/>
+        </navPoint>
+        <navPoint id="np-193" playOrder="193">
+          <navLabel>
+            <text>KANAIAHUEA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-28.htm.html#pgepubid00192"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-194" playOrder="194">
+        <navLabel>
+          <text>Legend of Pupukea.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-29.htm.html#pgepubid00193"/>
+      </navPoint>
+      <navPoint id="np-195" playOrder="195">
+        <navLabel>
+          <text>Kaao no Pupukea.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-29.htm.html#pgepubid00194"/>
+        <navPoint id="np-196" playOrder="196">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-29.htm.html#pgepubid00195"/>
+        </navPoint>
+        <navPoint id="np-197" playOrder="197">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-29.htm.html#pgepubid00196"/>
+        </navPoint>
+        <navPoint id="np-198" playOrder="198">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-29.htm.html#pgepubid00197"/>
+        </navPoint>
+        <navPoint id="np-199" playOrder="199">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-29.htm.html#pgepubid00198"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-200" playOrder="200">
+        <navLabel>
+          <text>Legend of Kekuhaupio.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-30.htm.html#pgepubid00199"/>
+      </navPoint>
+      <navPoint id="np-201" playOrder="201">
+        <navLabel>
+          <text>Kaao no Kekuhaupio.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-30.htm.html#pgepubid00200"/>
+      </navPoint>
+      <navPoint id="np-202" playOrder="202">
+        <navLabel>
+          <text>Story of Peapea.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-31.htm.html#pgepubid00201"/>
+      </navPoint>
+      <navPoint id="np-203" playOrder="203">
+        <navLabel>
+          <text>Kaao no Peapea.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-31.htm.html#pgepubid00202"/>
+      </navPoint>
+      <navPoint id="np-204" playOrder="204">
+        <navLabel>
+          <text>Brief Sketch of Kamehameha I.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00203"/>
+      </navPoint>
+      <navPoint id="np-205" playOrder="205">
+        <navLabel>
+          <text>Moolelo Pokole no Kamehameha I.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00204"/>
+        <navPoint id="np-206" playOrder="206">
+          <navLabel>
+            <text>His Wars and Celebrities of His Time.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00205"/>
+        </navPoint>
+        <navPoint id="np-207" playOrder="207">
+          <navLabel>
+            <text>Kana Mau Kaua, a Poe Kaulana Oia Wa.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00206"/>
+        </navPoint>
+        <navPoint id="np-208" playOrder="208">
+          <navLabel>
+            <text>OF KALAIOPUU’S WORDS TO KIWALAO AND KAMEHAMEHA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00207"/>
+        </navPoint>
+        <navPoint id="np-209" playOrder="209">
+          <navLabel>
+            <text>NO KA OLELO A KALAIOPUU IA KIWALAO A ME KAMEHAMEHA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00208"/>
+        </navPoint>
+        <navPoint id="np-210" playOrder="210">
+          <navLabel>
+            <text>OF MOKUOHAI.5—FIRST BATTLE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00209"/>
+        </navPoint>
+        <navPoint id="np-211" playOrder="211">
+          <navLabel>
+            <text>NO MOKUOHAI.—KAUA MUA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00210"/>
+        </navPoint>
+        <navPoint id="np-212" playOrder="212">
+          <navLabel>
+            <text>OF KAUAAWA.—SECOND BATTLE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00211"/>
+        </navPoint>
+        <navPoint id="np-213" playOrder="213">
+          <navLabel>
+            <text>NO KAUAAWA.—KAUA ALUA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00212"/>
+        </navPoint>
+        <navPoint id="np-214" playOrder="214">
+          <navLabel>
+            <text>OF KAMEHAMEHA’S GREAT STRENGTH IN FIGHTING.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00213"/>
+        </navPoint>
+        <navPoint id="np-215" playOrder="215">
+          <navLabel>
+            <text>KA IKAIKA O KAMEHAMEHA MA KA HAKAKA ANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00214"/>
+        </navPoint>
+        <navPoint id="np-216" playOrder="216">
+          <navLabel>
+            <text>OF THE THIRD WAR, KEPANIWAI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00215"/>
+        </navPoint>
+        <navPoint id="np-217" playOrder="217">
+          <navLabel>
+            <text>KAUA AKOLU.—KEPANIWAI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00216"/>
+        </navPoint>
+        <navPoint id="np-218" playOrder="218">
+          <navLabel>
+            <text>THE FOURTH BATTLE, AT KOAPAPAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00217"/>
+        </navPoint>
+        <navPoint id="np-219" playOrder="219">
+          <navLabel>
+            <text>KAUA AHA A KAMEHAMEHA, KOAPAPAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00218"/>
+        </navPoint>
+        <navPoint id="np-220" playOrder="220">
+          <navLabel>
+            <text>THE FIFTH BATTLE, CALLED KE-PU-WAHA-ULAULA.28</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00219"/>
+        </navPoint>
+        <navPoint id="np-221" playOrder="221">
+          <navLabel>
+            <text>KAUA ALIMA, OIA O KE-PU-WAHAULAULA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00220"/>
+        </navPoint>
+        <navPoint id="np-222" playOrder="222">
+          <navLabel>
+            <text>THE SIXTH BATTLE, CALLED KAIEIEWAHO.30</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00221"/>
+        </navPoint>
+        <navPoint id="np-223" playOrder="223">
+          <navLabel>
+            <text>KAUA AONO, O KAIEIEWAHO KA INOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00222"/>
+        </navPoint>
+        <navPoint id="np-224" playOrder="224">
+          <navLabel>
+            <text>PIHANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00223"/>
+        </navPoint>
+        <navPoint id="np-225" playOrder="225">
+          <navLabel>
+            <text>NO PIHANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00224"/>
+        </navPoint>
+        <navPoint id="np-226" playOrder="226">
+          <navLabel>
+            <text>THE SIXTH BATTLE.32</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00225"/>
+        </navPoint>
+        <navPoint id="np-227" playOrder="227">
+          <navLabel>
+            <text>KE KAUA AONO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00226"/>
+        </navPoint>
+        <navPoint id="np-228" playOrder="228">
+          <navLabel>
+            <text>SEVENTH BATTLE BY KAMEHAMEHA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00227"/>
+        </navPoint>
+        <navPoint id="np-229" playOrder="229">
+          <navLabel>
+            <text>KAUA AHIKU A KAMEHAMEHA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00228"/>
+        </navPoint>
+        <navPoint id="np-230" playOrder="230">
+          <navLabel>
+            <text>THE ADMINISTRATION OF KAMEHAMEHA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00229"/>
+        </navPoint>
+        <navPoint id="np-231" playOrder="231">
+          <navLabel>
+            <text>KO KAMEHAMEHA HOOPONOPONO ANA I KONA AUPUNI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00230"/>
+        </navPoint>
+        <navPoint id="np-232" playOrder="232">
+          <navLabel>
+            <text>OF THE CHIEF KEKUAOKALANI, AND HIS INSURGENCY.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00231"/>
+        </navPoint>
+        <navPoint id="np-233" playOrder="233">
+          <navLabel>
+            <text>NO KE ’LII O KEKUAOKALANI; KONA KIPI ANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00232"/>
+        </navPoint>
+        <navPoint id="np-234" playOrder="234">
+          <navLabel>
+            <text>OF HEMA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00233"/>
+        </navPoint>
+        <navPoint id="np-235" playOrder="235">
+          <navLabel>
+            <text>NO HEMA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00234"/>
+        </navPoint>
+        <navPoint id="np-236" playOrder="236">
+          <navLabel>
+            <text>OF NALU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00235"/>
+        </navPoint>
+        <navPoint id="np-237" playOrder="237">
+          <navLabel>
+            <text>NO NALU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-32.htm.html#pgepubid00236"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-238" playOrder="238">
+        <navLabel>
+          <text>Famous Men of Early Days.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00237"/>
+      </navPoint>
+      <navPoint id="np-239" playOrder="239">
+        <navLabel>
+          <text>Poe Kaulana o ka Wa i Hala.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00238"/>
+        <navPoint id="np-240" playOrder="240">
+          <navLabel>
+            <text>Of Kekuawahine.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00239"/>
+        </navPoint>
+        <navPoint id="np-241" playOrder="241">
+          <navLabel>
+            <text>No Kekuawahine.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00240"/>
+        </navPoint>
+        <navPoint id="np-242" playOrder="242">
+          <navLabel>
+            <text>OF MAKAIOULU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00241"/>
+        </navPoint>
+        <navPoint id="np-243" playOrder="243">
+          <navLabel>
+            <text>NO MAKAIOULU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00242"/>
+        </navPoint>
+        <navPoint id="np-244" playOrder="244">
+          <navLabel>
+            <text>OF MAKOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00243"/>
+        </navPoint>
+        <navPoint id="np-245" playOrder="245">
+          <navLabel>
+            <text>NO MAKOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00244"/>
+        </navPoint>
+        <navPoint id="np-246" playOrder="246">
+          <navLabel>
+            <text>OF KANEAKAEHU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00245"/>
+        </navPoint>
+        <navPoint id="np-247" playOrder="247">
+          <navLabel>
+            <text>KANEAKAEHU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00246"/>
+        </navPoint>
+        <navPoint id="np-248" playOrder="248">
+          <navLabel>
+            <text>OF KELIIMALOLO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00247"/>
+        </navPoint>
+        <navPoint id="np-249" playOrder="249">
+          <navLabel>
+            <text>KELIIMALOLO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00248"/>
+        </navPoint>
+        <navPoint id="np-250" playOrder="250">
+          <navLabel>
+            <text>OF KAMOEAU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00249"/>
+        </navPoint>
+        <navPoint id="np-251" playOrder="251">
+          <navLabel>
+            <text>NO KAMOEAU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00250"/>
+        </navPoint>
+        <navPoint id="np-252" playOrder="252">
+          <navLabel>
+            <text>OF PAHIA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00251"/>
+        </navPoint>
+        <navPoint id="np-253" playOrder="253">
+          <navLabel>
+            <text>NO PAHIA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00252"/>
+        </navPoint>
+        <navPoint id="np-254" playOrder="254">
+          <navLabel>
+            <text>OF KAWAAIKI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00253"/>
+        </navPoint>
+        <navPoint id="np-255" playOrder="255">
+          <navLabel>
+            <text>NO KAWAAIKI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00254"/>
+        </navPoint>
+        <navPoint id="np-256" playOrder="256">
+          <navLabel>
+            <text>OF KAOHELE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00255"/>
+        </navPoint>
+        <navPoint id="np-257" playOrder="257">
+          <navLabel>
+            <text>NO KAOHELE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00256"/>
+        </navPoint>
+        <navPoint id="np-258" playOrder="258">
+          <navLabel>
+            <text>OF KAHAHAWAI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00257"/>
+        </navPoint>
+        <navPoint id="np-259" playOrder="259">
+          <navLabel>
+            <text>NO KAHAHAWAI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00258"/>
+        </navPoint>
+        <navPoint id="np-260" playOrder="260">
+          <navLabel>
+            <text>OF UMA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00259"/>
+        </navPoint>
+        <navPoint id="np-261" playOrder="261">
+          <navLabel>
+            <text>NO UMA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00260"/>
+        </navPoint>
+        <navPoint id="np-262" playOrder="262">
+          <navLabel>
+            <text>OF NAPUELUA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00261"/>
+        </navPoint>
+        <navPoint id="np-263" playOrder="263">
+          <navLabel>
+            <text>NO NAPUELUA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00262"/>
+        </navPoint>
+        <navPoint id="np-264" playOrder="264">
+          <navLabel>
+            <text>OF HAWAE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00263"/>
+        </navPoint>
+        <navPoint id="np-265" playOrder="265">
+          <navLabel>
+            <text>NO HAWAE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00264"/>
+        </navPoint>
+        <navPoint id="np-266" playOrder="266">
+          <navLabel>
+            <text>OF KAHAUOLOPUA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00265"/>
+        </navPoint>
+        <navPoint id="np-267" playOrder="267">
+          <navLabel>
+            <text>NO KAHAUOLOPUA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-33.htm.html#pgepubid00266"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-268" playOrder="268">
+      <navLabel>
+        <text>FORNANDER COLLECTION OF HAWAIIAN ANTIQUITIES AND FOLK-LORE THE HAWAIIANS’ ACCOUNT OF THE FORMATION OF THEIR ISLANDS AND ORIGIN OF THEIR RACE, WITH THE TRADITIONS OF THEIR MIGRATIONS, Etc., AS GATHERED FROM ORIGINAL SOURCES</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-34.htm.html#pgepubid00267"/>
+    </navPoint>
+    <navPoint id="np-269" playOrder="269">
+      <navLabel>
+        <text>Memoirs of the Bernice Pauahi Bishop Museum Volume V—Part III</text>
+      </navLabel>
+      <content src="5240105533913398527_73166-h-34.htm.html#pgepubid00268"/>
+      <navPoint id="np-270" playOrder="270">
+        <navLabel>
+          <text>CONTENTS.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-34.htm.html#pgepubid00269"/>
+      </navPoint>
+      <navPoint id="np-271" playOrder="271">
+        <navLabel>
+          <text>PART III</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00270"/>
+      </navPoint>
+      <navPoint id="np-272" playOrder="272">
+        <navLabel>
+          <text>Mythical Tales.1</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00271"/>
+      </navPoint>
+      <navPoint id="np-273" playOrder="273">
+        <navLabel>
+          <text>Na Kaao ano Kupua.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00272"/>
+        <navPoint id="np-274" playOrder="274">
+          <navLabel>
+            <text>THE BONES OF PELE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00273"/>
+        </navPoint>
+        <navPoint id="np-275" playOrder="275">
+          <navLabel>
+            <text>KA IWI O PELE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00274"/>
+        </navPoint>
+        <navPoint id="np-276" playOrder="276">
+          <navLabel>
+            <text>LEGEND OF THE OOPU GOD.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00275"/>
+        </navPoint>
+        <navPoint id="np-277" playOrder="277">
+          <navLabel>
+            <text>MOOLELO NO KE AKUA OOPU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00276"/>
+        </navPoint>
+        <navPoint id="np-278" playOrder="278">
+          <navLabel>
+            <text>MYTH CONCERNING MOLOKINI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00277"/>
+        </navPoint>
+        <navPoint id="np-279" playOrder="279">
+          <navLabel>
+            <text>HE MOOLELO NO MOLOKINI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00278"/>
+        </navPoint>
+        <navPoint id="np-280" playOrder="280">
+          <navLabel>
+            <text>PA’UPA’U.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00279"/>
+        </navPoint>
+        <navPoint id="np-281" playOrder="281">
+          <navLabel>
+            <text>NO PA’UPA’U.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00280"/>
+        </navPoint>
+        <navPoint id="np-282" playOrder="282">
+          <navLabel>
+            <text>THE FLOOD IN HAWAII IN THE OLDEN TIMES.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00281"/>
+        </navPoint>
+        <navPoint id="np-283" playOrder="283">
+          <navLabel>
+            <text>NO KE KAIAKAHINALII MA HAWAII NEI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00282"/>
+        </navPoint>
+        <navPoint id="np-284" playOrder="284">
+          <navLabel>
+            <text>A STORY OF POO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00283"/>
+        </navPoint>
+        <navPoint id="np-285" playOrder="285">
+          <navLabel>
+            <text>HE MOOLELO NO POO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00284"/>
+        </navPoint>
+        <navPoint id="np-286" playOrder="286">
+          <navLabel>
+            <text>A STORY OF UALAKAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00285"/>
+        </navPoint>
+        <navPoint id="np-287" playOrder="287">
+          <navLabel>
+            <text>MOOLELO NO UALAKAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00286"/>
+        </navPoint>
+        <navPoint id="np-288" playOrder="288">
+          <navLabel>
+            <text>STORY OF PUULAINA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00287"/>
+        </navPoint>
+        <navPoint id="np-289" playOrder="289">
+          <navLabel>
+            <text>MOOLELO NO PUULAINA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00288"/>
+        </navPoint>
+        <navPoint id="np-290" playOrder="290">
+          <navLabel>
+            <text>A LEGEND OF MAUI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00289"/>
+        </navPoint>
+        <navPoint id="np-291" playOrder="291">
+          <navLabel>
+            <text>HE MOOLELO NO MAUI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00290"/>
+        </navPoint>
+        <navPoint id="np-292" playOrder="292">
+          <navLabel>
+            <text>RELATING TO KEKAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00291"/>
+        </navPoint>
+        <navPoint id="np-293" playOrder="293">
+          <navLabel>
+            <text>KUMUMANAO NO KEKAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00292"/>
+        </navPoint>
+        <navPoint id="np-294" playOrder="294">
+          <navLabel>
+            <text>A STORY OF KAUIKI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00293"/>
+        </navPoint>
+        <navPoint id="np-295" playOrder="295">
+          <navLabel>
+            <text>HE MOOLELO NO KAUIKI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00294"/>
+        </navPoint>
+        <navPoint id="np-296" playOrder="296">
+          <navLabel>
+            <text>A STORY OF PUMAIA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00295"/>
+        </navPoint>
+        <navPoint id="np-297" playOrder="297">
+          <navLabel>
+            <text>HE MOOLELO NO PUMAIA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00296"/>
+        </navPoint>
+        <navPoint id="np-298" playOrder="298">
+          <navLabel>
+            <text>A STORY OF PUUPEHE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00297"/>
+        </navPoint>
+        <navPoint id="np-299" playOrder="299">
+          <navLabel>
+            <text>HE MOOLELO NO PUUPEHE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00298"/>
+        </navPoint>
+        <navPoint id="np-300" playOrder="300">
+          <navLabel>
+            <text>A STORY CONCERNING THE FIRE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00299"/>
+        </navPoint>
+        <navPoint id="np-301" playOrder="301">
+          <navLabel>
+            <text>MOOLELO NO KE AHI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00300"/>
+        </navPoint>
+        <navPoint id="np-302" playOrder="302">
+          <navLabel>
+            <text>A STORY OF MAKAHI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00301"/>
+        </navPoint>
+        <navPoint id="np-303" playOrder="303">
+          <navLabel>
+            <text>HE MOOLELO NO MAKAHI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-36.htm.html#pgepubid00302"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-304" playOrder="304">
+        <navLabel>
+          <text>Traditionary Stories.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00303"/>
+      </navPoint>
+      <navPoint id="np-305" playOrder="305">
+        <navLabel>
+          <text>Na Moolelo mai na Kupuna Mai.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00304"/>
+        <navPoint id="np-306" playOrder="306">
+          <navLabel>
+            <text>RELATING TO THE DEAD IN ANCIENT TIME.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00305"/>
+        </navPoint>
+        <navPoint id="np-307" playOrder="307">
+          <navLabel>
+            <text>NO NA KUPAPAU I KA WA KAHIKO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00306"/>
+        </navPoint>
+        <navPoint id="np-308" playOrder="308">
+          <navLabel>
+            <text>STORY OF THE OHELO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00307"/>
+        </navPoint>
+        <navPoint id="np-309" playOrder="309">
+          <navLabel>
+            <text>HE MOOLELO NO KA OHELO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00308"/>
+        </navPoint>
+        <navPoint id="np-310" playOrder="310">
+          <navLabel>
+            <text>INDIGENOUS CANES OF HAWAII.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00309"/>
+        </navPoint>
+        <navPoint id="np-311" playOrder="311">
+          <navLabel>
+            <text>NO NA KO KAHIKO O HAWAII NEI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00310"/>
+        </navPoint>
+        <navPoint id="np-312" playOrder="312">
+          <navLabel>
+            <text>STORY OF THE BAMBU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00311"/>
+        </navPoint>
+        <navPoint id="np-313" playOrder="313">
+          <navLabel>
+            <text>MOOLELO NO KA OHE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00312"/>
+        </navPoint>
+        <navPoint id="np-314" playOrder="314">
+          <navLabel>
+            <text>THE COCONUT.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00313"/>
+        </navPoint>
+        <navPoint id="np-315" playOrder="315">
+          <navLabel>
+            <text>NO KA NIU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00314"/>
+        </navPoint>
+        <navPoint id="np-316" playOrder="316">
+          <navLabel>
+            <text>THE BANANA FIELD OF KAHUOI AND OTHER FAMOUS PLACES.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00315"/>
+        </navPoint>
+        <navPoint id="np-317" playOrder="317">
+          <navLabel>
+            <text>NO KA E-A MAIA A KAHUOI, A ME NA WAHI PANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00316"/>
+        </navPoint>
+        <navPoint id="np-318" playOrder="318">
+          <navLabel>
+            <text>THE STONE ADZE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00317"/>
+        </navPoint>
+        <navPoint id="np-319" playOrder="319">
+          <navLabel>
+            <text>NO KE KOI PAHOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00318"/>
+        </navPoint>
+        <navPoint id="np-320" playOrder="320">
+          <navLabel>
+            <text>HISTORY OF THE AWA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00319"/>
+        </navPoint>
+        <navPoint id="np-321" playOrder="321">
+          <navLabel>
+            <text>MOOLELO NO KA AWA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00320"/>
+        </navPoint>
+        <navPoint id="np-322" playOrder="322">
+          <navLabel>
+            <text>BUILDING CANOES.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00321"/>
+        </navPoint>
+        <navPoint id="np-323" playOrder="323">
+          <navLabel>
+            <text>NO KA HANA ANA O KA WAA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00322"/>
+        </navPoint>
+        <navPoint id="np-324" playOrder="324">
+          <navLabel>
+            <text>THE MAILE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00323"/>
+        </navPoint>
+        <navPoint id="np-325" playOrder="325">
+          <navLabel>
+            <text>NO KA MAILE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00324"/>
+        </navPoint>
+        <navPoint id="np-326" playOrder="326">
+          <navLabel>
+            <text>HISTORY OF THE WILIWILI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00325"/>
+        </navPoint>
+        <navPoint id="np-327" playOrder="327">
+          <navLabel>
+            <text>HE MOOLELO NO KA WILIWILI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00326"/>
+        </navPoint>
+        <navPoint id="np-328" playOrder="328">
+          <navLabel>
+            <text>THE VARIOUS OHIAS OF HAWAII.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00327"/>
+        </navPoint>
+        <navPoint id="np-329" playOrder="329">
+          <navLabel>
+            <text>NO NA OHIA O HAWAII NEI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00328"/>
+        </navPoint>
+        <navPoint id="np-330" playOrder="330">
+          <navLabel>
+            <text>THE MAT.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00329"/>
+        </navPoint>
+        <navPoint id="np-331" playOrder="331">
+          <navLabel>
+            <text>NO KA MOENA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00330"/>
+        </navPoint>
+        <navPoint id="np-332" playOrder="332">
+          <navLabel>
+            <text>ABOUT THE KOA TREE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00331"/>
+        </navPoint>
+        <navPoint id="np-333" playOrder="333">
+          <navLabel>
+            <text>NO KA LAAU KOA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00332"/>
+        </navPoint>
+        <navPoint id="np-334" playOrder="334">
+          <navLabel>
+            <text>THE KAPA OF HAWAII NEI IN OLDEN TIME.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00333"/>
+        </navPoint>
+        <navPoint id="np-335" playOrder="335">
+          <navLabel>
+            <text>NO KE KAPA O HAWAII NEI I KA WA KAHIKO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00334"/>
+        </navPoint>
+        <navPoint id="np-336" playOrder="336">
+          <navLabel>
+            <text>CONSTRUCTION OF HOUSES IN HAWAII NEI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00335"/>
+        </navPoint>
+        <navPoint id="np-337" playOrder="337">
+          <navLabel>
+            <text>NO KA HANA ANA O NA HALE O HAWAII NEI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00336"/>
+        </navPoint>
+        <navPoint id="np-338" playOrder="338">
+          <navLabel>
+            <text>METHODS OF HOUSE CONSTRUCTION.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00337"/>
+        </navPoint>
+        <navPoint id="np-339" playOrder="339">
+          <navLabel>
+            <text>KE ANO O KE KUKULU HALE ANA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00338"/>
+        </navPoint>
+        <navPoint id="np-340" playOrder="340">
+          <navLabel>
+            <text>STORY OF THE LAUHALA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00339"/>
+        </navPoint>
+        <navPoint id="np-341" playOrder="341">
+          <navLabel>
+            <text>MOOLELO NO KA LAUHALA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00340"/>
+        </navPoint>
+        <navPoint id="np-342" playOrder="342">
+          <navLabel>
+            <text>SOME THINGS IN THE BIBLE SIMILAR TO SOME THINGS DONE HERE IN HAWAII IN THE OLDEN TIME.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00341"/>
+        </navPoint>
+        <navPoint id="np-343" playOrder="343">
+          <navLabel>
+            <text>O KEKAHI MAU MEA O KA BAIBALA I ANO LIKE ME KEKAHI MAU MEA I HANAIA MA HAWAII NEI I KA WA KAHIKO.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00342"/>
+        </navPoint>
+        <navPoint id="np-344" playOrder="344">
+          <navLabel>
+            <text>THE DAYS AND THE MONTHS.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00343"/>
+        </navPoint>
+        <navPoint id="np-345" playOrder="345">
+          <navLabel>
+            <text>NA LA A ME NA MALAMA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00344"/>
+        </navPoint>
+        <navPoint id="np-346" playOrder="346">
+          <navLabel>
+            <text>CONCERNING THE TI-LEAF.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00345"/>
+        </navPoint>
+        <navPoint id="np-347" playOrder="347">
+          <navLabel>
+            <text>NO KA LA-I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00346"/>
+        </navPoint>
+        <navPoint id="np-348" playOrder="348">
+          <navLabel>
+            <text>THE KUKUI TREE.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00347"/>
+        </navPoint>
+        <navPoint id="np-349" playOrder="349">
+          <navLabel>
+            <text>NO KE KUKUI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00348"/>
+        </navPoint>
+        <navPoint id="np-350" playOrder="350">
+          <navLabel>
+            <text>AN ACCOUNT OF THE BREADFRUIT.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00349"/>
+        </navPoint>
+        <navPoint id="np-351" playOrder="351">
+          <navLabel>
+            <text>MOOLELO NO KA ULU.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00350"/>
+        </navPoint>
+        <navPoint id="np-352" playOrder="352">
+          <navLabel>
+            <text>CULTIVATION OF TARO: ANCIENT AND MODERN.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00351"/>
+        </navPoint>
+        <navPoint id="np-353" playOrder="353">
+          <navLabel>
+            <text>KE ANO O KA MAHI KALO O KA WA KAHIKO, A ME KO KEIA WA.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00352"/>
+        </navPoint>
+        <navPoint id="np-354" playOrder="354">
+          <navLabel>
+            <text>A Story of Kamehameha.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00353"/>
+        </navPoint>
+        <navPoint id="np-355" playOrder="355">
+          <navLabel>
+            <text>He Wahi Moolelo no Kamehameha.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-37.htm.html#pgepubid00354"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-356" playOrder="356">
+        <navLabel>
+          <text>A Story of Kawelo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00355"/>
+      </navPoint>
+      <navPoint id="np-357" playOrder="357">
+        <navLabel>
+          <text>He Moolelo no Kawelo.</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00356"/>
+        <navPoint id="np-358" playOrder="358">
+          <navLabel>
+            <text>CHAPTER I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00357"/>
+        </navPoint>
+        <navPoint id="np-359" playOrder="359">
+          <navLabel>
+            <text>MOKUNA I.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00358"/>
+        </navPoint>
+        <navPoint id="np-360" playOrder="360">
+          <navLabel>
+            <text>CHAPTER II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00359"/>
+        </navPoint>
+        <navPoint id="np-361" playOrder="361">
+          <navLabel>
+            <text>MOKUNA II.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00360"/>
+        </navPoint>
+        <navPoint id="np-362" playOrder="362">
+          <navLabel>
+            <text>CHAPTER III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00361"/>
+        </navPoint>
+        <navPoint id="np-363" playOrder="363">
+          <navLabel>
+            <text>MOKUNA III.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00362"/>
+        </navPoint>
+        <navPoint id="np-364" playOrder="364">
+          <navLabel>
+            <text>CHAPTER IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00363"/>
+        </navPoint>
+        <navPoint id="np-365" playOrder="365">
+          <navLabel>
+            <text>MOKUNA IV.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00364"/>
+        </navPoint>
+        <navPoint id="np-366" playOrder="366">
+          <navLabel>
+            <text>CHAPTER V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00365"/>
+        </navPoint>
+        <navPoint id="np-367" playOrder="367">
+          <navLabel>
+            <text>MOKUNA V.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00366"/>
+        </navPoint>
+        <navPoint id="np-368" playOrder="368">
+          <navLabel>
+            <text>CHAPTER VI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00367"/>
+        </navPoint>
+        <navPoint id="np-369" playOrder="369">
+          <navLabel>
+            <text>MOKUNA VI.</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-38.htm.html#pgepubid00368"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-370" playOrder="370">
+        <navLabel>
+          <text>INDEX</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-40.htm.html#pgepubid00369"/>
+      </navPoint>
+      <navPoint id="np-371" playOrder="371">
+        <navLabel>
+          <text>Colophon</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-49.htm.html#pgepubid00370"/>
+        <navPoint id="np-372" playOrder="372">
+          <navLabel>
+            <text>Availability</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-49.htm.html#pgepubid00371"/>
+        </navPoint>
+        <navPoint id="np-373" playOrder="373">
+          <navLabel>
+            <text>Metadata</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-49.htm.html#pgepubid00372"/>
+        </navPoint>
+        <navPoint id="np-374" playOrder="374">
+          <navLabel>
+            <text>Revision History</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-49.htm.html#pgepubid00373"/>
+        </navPoint>
+        <navPoint id="np-375" playOrder="375">
+          <navLabel>
+            <text>Corrections</text>
+          </navLabel>
+          <content src="5240105533913398527_73166-h-49.htm.html#pgepubid00374"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-376" playOrder="376">
+        <navLabel>
+          <text>THE FULL PROJECT GUTENBERG LICENSE</text>
+        </navLabel>
+        <content src="5240105533913398527_73166-h-50.htm.html#pg-footer-heading"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

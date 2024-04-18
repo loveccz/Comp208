@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>Sign Up Form</title>
+<link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet" type="text/css" />  <!-- changed-->
+</head>
+<body>
+
+<div class="container">
+  <h1>Sign Up</h1>
+  <form action="signup.html" method="post">  <!-- changed-->
+    <input type="email" name="email" placeholder="Email Address" required><br>
+    <input type="text" name="full_name" placeholder="Full Name" required><br>
+    <input type="text" name="mobile_number" placeholder="Mobile Number" required><br>
+    <input type="text" name="username" placeholder="Username" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <button type="submit">Continue</button>
+  </form>
+  <div class="footer">
+    <p>By signing up, you agree to our <a href="#">Terms & Conditions and Policies</a></p>
+    <p>Already have an account? <a href="login.html">Log in</a></p>
+  </div>
+</div>
+
+</body>
+</html>

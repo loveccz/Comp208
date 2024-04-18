@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* global.css */
+/* ============================ 重置css样式 ============================ */
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置全局默认字体、背景颜色、边距和内边距 */
+body {
+  font-family: Arial, sans-serif;
+  /* 字体 */
+  background: #fff;
+  /* 背景颜色 */
+  margin: 0;
+  /* 外边距 */
+  padding: 20px;
+  /* 内边距 */
+  background-image: url("/nc.prototype62.com/images/1166499.pn");
+  /* 背景图片 */
+  background-size: cover;
+  /* 背景图片覆盖整个可视区域 */
+  background-position: top;
+  /* 背景图片位置 */
+  background-repeat: no-repeat;
+  /* 背景图片不重复 */
+}
+
+/* 设置h1元素的字体大小、颜色、字体族、边距、对齐方式、字重和行高 */
+h1 {
+  margin-top: 100%; /* 在h1的顶部添加50px的外边距 */
+  padding-top: 100%; 
+  font-size: 40px;
+  /* 字体大小 */
+  color: #333;
+  /* 字体颜色 */
+  font-family: 'Arial', sans-serif;
+  /* 字体族 */
+  margin: 0 0 20px 0;
+  /* 边距 */
+  text-align: left;
+  /* 对齐方式 */
+  font-weight: bold;
+  /* 字重 */
+  line-height: 2;
+  /* 行高 */
+}
+
+/* 输入框的边距、内边距、边框样式和圆角 */
+input {
+  display: block;
+  width: 90%; /* 设置宽度 */
+  height: 30px; /* 设置高度 */
+  padding: 5px; /* 内部空间 */
+  margin: 8px 0; /* 上下外部空间，左右为0 */
+  border: none;             /* 移除所有默认边框 */
+  border-bottom: 1px solid #000; /* 仅为下边框设置样式 */
+  outline: none; /* 移除聚焦时的默认外框线 */
+  padding: 8px 8; /* 设置一些内边距 */
+}
+
+input:focus {
+  border: 3px solid black; /* 聚焦时添加完整边框 */
+  border-radius: 5px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.Forgot {
+  display: inline-block;
+  margin: 15px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.Or {
+  display: block;
+  text-align: center;
+}
+
+.GoogleLoginBtn {
+  width: 94%; /* 设置宽度 */
+  height: 40px; /* 设置高度 */
+  margin: 8px 0; /* 上下外部空间，左右为0 */
+  padding: 10px;
+  /* 内边距 */
+  background: #b8b8b8;
+  /* 背景颜色 */
+  color: rgb(0, 0, 0);
+  /* 文字颜色 */
+  border: none;
+  /* 无边框 */
+  border-radius: 5px;
+  /* 圆角 */
+  cursor: pointer;
+  /* 光标样式 */
+  text-align: center;
+}
+
+/* 按钮的内边距、背景颜色、文字颜色、边框和圆角 */
+button {
+  width: 94%; /* 设置宽度 */
+  height: 40px; /* 设置高度 */
+  margin: 8px 0; /* 上下外部空间，左右为0 */
+  padding: 10px;
+  /* 内边距 */
+  background: #686868;
+  /* 背景颜色 */
+  color: white;
+  /* 文字颜色 */
+  border: none;
+  /* 无边框 */
+  border-radius: 5px;
+  /* 圆角 */
+  cursor: pointer;
+  /* 光标样式 */
+  text-align: center;
+}
+
+
+/* 页脚的文本对齐方式、边距、字体大小 */
+.footer {
+  text-align: center;
+  /* 文本对齐 */
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #000;
+}
+

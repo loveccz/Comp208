@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel Reader, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>  <!--changed-->
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>  <!--changed-->
+
+  </head>
+
+  <body>
+    <script>
+      $(function () {
+        UserCookie();
+        subscribeUnread();
+        if (nc_global.isLogin == true) {
+          $(".head img").show().attr("src", nc_global.userPhoto);
+        }
+      });
+    </script>
+    <!--head-->
+    <div class="header">
+      <!--搜索-->
+      <div class="serCh" id="serCh" style="dispaly:block;">
+          <form id="searchForm" action="/search" method="get">
+              <button type="submit" class="searBtn"></button>
+              <a class="searClose" onclick="nc_global.closed('serCh')"></a>
+            <div class="serChinputBox">
+              <input
+                type="search"
+                class="searInput"
+                placeholder="Book title or author"
+                name="query"
+                id="searInput"
+                required
+              />
+            </div>
+          </form>
+      </div>
+
+
+      <div class="messagSjr">
+        <ul class="keyTit" id="messagelist"></ul>
+        <p id="hotTit">Discover:</p>
+        <ul class="tag" id="HotTag"></ul>
+      </div>
+      <!--搜索 end-->
+      <div class="logo">
+        <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/creper.png') }}" width="40" height="40" /></a>
+      </div>
+      <a
+        href="javascript:;"
+        title=""
+        class="icon serch"
+        onClick="nc_global.serchAction('serCh')"
+      ></a>
+      <a title="" class="icon head" href="{{ url_for('my_page') }}"
+        ><img
+          style="display: none"
+          src="{{ url_for('static', filename='images/head.png') }}"
+          width="36"
+          height="36"
+          onerror="this.src='{{ url_for('static', filename='images/logo.png') }}'" /><span
+          class="tip"
+          id="subscribe"
+        ></span
+      ></a>
+    </div>
+    <!--head end-->
+
+    <!--列表-->
+    <div class="UpdateList">
+        <div id="topImgCon">
+
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg24315') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/24315/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg24315') }}" title>The Great Gatsby</a>
+                    <p class="txtItme">F. Scott Fitzgerald<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Romantic</span>
+                        <span class="pd">Society</span>
+                        <span class="pd">Tragedy</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2024-2-2 06:46</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg2433') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/2433/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg2433') }}" title>Pride and Prejudice</a>
+                    <p class="txtItme">Jane Austen<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Romantic</span>
+                        <span class="pd">Fantasy</span>
+                        <span class="pd">Adventure</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2023-4-14 15:01</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg3072') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/3072/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg3072') }}" title>A Story of Rebel Military</a>
+                    <p class="txtItme">John McElroy<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">War</span>
+                        <span class="pd">Society</span>
+                        <span class="pd">History</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2022-8-24 11:23</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg2600') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/2600/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg2600') }}" title>War and Peace</a>
+                    <p class="txtItme">graf Leo Tolstoy<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">War</span>
+                        <span class="pd">History</span>
+                        <span class="pd">Philosophy</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2022-5-14 09:43</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg24316') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/24316/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg24316') }}" title>Twenty years after</a>
+                    <p class="txtItme">Alexandre Dumas<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">History</span>
+                        <span class="pd">Adventure</span>
+                        <span class="pd">Romantic</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2022-4-9 17:59</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg203') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/203/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg203') }}" title>Uncle Tom's Cabin</a>
+                    <p class="txtItme">Harriet Beecher Stowe<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Freedom</span>
+                        <span class="pd">Society</span>
+                        <span class="pd">History</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2019-03-21 09:04</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg42532') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/42532/270x360.png') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg42532') }}" title>A Tale of California</a>
+                    <p class="txtItme">Gustave Aimard<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Adventure</span>
+                        <span class="pd">History</span>
+                        <span class="pd">Freedom</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2021-1-2 02:58</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg2429') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/2429/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg2429') }}" title>Alice In Wonderland</a>
+                    <p class="txtItme">Lewis Carroll<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Psychology</span>
+                        <span class="pd">Fantasy</span>
+                        <span class="pd">Adventure</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2020-12-7 00:57</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg2416') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/2416/270x360.jpg') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg2416') }}" title>Blue Castle</a>
+                    <p class="txtItme">L. M. Montgomery<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Freedom</span>
+                        <span class="pd">Society</span>
+                        <span class="pd">History</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2021-10-28 20:47</span>
+                    </p>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="itemImg">
+                    <a href="{{ url_for('pg46547') }}" title>
+                        <img src="{{ url_for('static', filename='webpic/46547/270x360.png') }}" width="100%"></a>
+                </div>
+                <div class="itemTxt">
+                    <a class="title" href="{{ url_for('pg46547') }}" title>A Voyage to the Moon</a>
+                    <p class="txtItme">Cyrano de Bergerac<span class="icon icon01"></span></p>
+                    <p class="txtItme">
+                        <span class="icon icon2"></span>
+                        <span class="pd">Fantasy</span>
+                        <span class="pd">Adventure</span>
+                        <span class="pd">Philosophy</span>
+                    </p>
+                    <p class="txtItme">
+                        <span class="icon icon03"></span>
+                        <span class="date">2017-6-10 12:04</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="pageLine">
+            <img src="images/Line10.png" width="100%">
+        </div>
+        <ul class="subNav">
+            <li><a href="index.html" class="cur" title="Home">HOME</a></li>
+            <li><a href="latest.html" title="Update">UPDATE</a></li>
+            <li><a href="rank.html" title="Ranking">RANKING</a></li>
+            <li class="nobor">
+              <a href="bookshelves.html" title="Bookshelve">BOOKSHELF</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="loadding" style="display: none;">Loading...</div>
+  </body>
+</html>

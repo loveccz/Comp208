@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel Reader, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f7f7f7; /* Or any color that fits the design */
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      .book-item {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .book-cover {
+        width: 80px;
+        height: 120px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .book-cover a {
+        content: "new";
+        color: #fff;
+        background-color: #ff6347;
+        padding: 5px 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        font-size: 12px;
+      }
+
+      .book-details {
+        overflow: hidden;
+      }
+
+      .book-details h3 {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .book-details .author {
+        font-size: 16px;
+        color: #777;
+        margin: 5px 0;
+      }
+
+      .book-details .date {
+        font-size: 14px;
+        color: #aaa;
+      }
+
+      .book-actions {
+        overflow: hidden;
+        padding-top: 10px;
+      }
+
+      .book-actions a {
+        display: inline-block;
+        padding: 10px 50px;
+        margin-right: 10px;
+        border-radius: 20px;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      .read {
+        background-color: #40a8fd;
+        color: #fff;
+      }
+
+      .delete {
+        background-color: #cccccc;
+        color: #000000;
+      }
+
+      .TabTit li {
+        width: 74px;
+        text-align: center;
+        line-height: 29px;
+        height: 29px;
+        float: left;
+        font-size: 12px;
+        opacity: .8;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="javascript:history.back()" title="Go back">
+        <img src="{{ url_for('static', filename='images/personal/Group177.png') }}" />
+      </a>
+    </div>
+
+    <div class="book-item">
+      <div class="book-cover">
+        <img src="{{ url_for('static', filename='webpic/203/203.jpg') }}" width="100%" />
+      </div>
+      <div class="book-details">
+        <h3><a href="info/pg203.html">2 Labels</a></h3>
+        <div class="author">Uncle Toms Cabin</div>
+        <div class="date">Ongoing</div>
+      </div>
+      <div class="book-actions">
+        <a href="{{ url_for('i203') }}" class="read">View</a>
+      </div>
+    </div>
+
+    <div class="book-item">
+      <div class="book-cover">
+        <img src="{{ url_for('static', filename='webpic/2416/2416.jpg') }}" width="100%" />
+      </div>
+      <div class="book-details">
+        <h3><a href="info/pg2416.html">1 Labels</a></h3>
+        <div class="author">Blue Castle</div>
+        <div class="date">Unread</div>
+      </div>
+      <div class="book-actions">
+        <a href="{{ url_for('i2416') }}" class="read"
+          >View</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

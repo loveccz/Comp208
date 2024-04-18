@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel Reader, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+  </head>
+  <body>
+    <script>
+      $(function () {
+        UserCookie();
+        subscribeUnread();
+        if (nc_global.isLogin == true) {
+          $(".head img").show().attr("src", nc_global.userPhoto);
+        }
+      });
+    </script>
+    <!--head-->
+    <div class="header">
+      <!--搜索-->
+      <div class="serCh" id="serCh" style="dispaly:block;">
+          <form id="searchForm" action="/search" method="get">
+              <button type="submit" class="searBtn"></button>
+              <a class="searClose" onclick="nc_global.closed('serCh')"></a>
+            <div class="serChinputBox">
+              <input
+                type="search"
+                class="searInput"
+                placeholder="Book title or author"
+                name="query"
+                id="searInput"
+                required
+              />
+            </div>
+          </form>
+      </div>
+
+
+      <div class="messagSjr">
+        <ul class="keyTit" id="messagelist"></ul>
+        <p id="hotTit">Discover:</p>
+        <ul class="tag" id="HotTag"></ul>
+      </div>
+      <!--搜索 end-->
+
+      <div class="logo">
+        <a><img src="{{ url_for('static', filename='images/creper.png') }}" width="40" height="40" /></a>
+      </div>
+      <a
+        href="javascript:;"
+        title=""
+        class="icon serch"
+        onClick="nc_global.serchAction('serCh')"
+      ></a>
+      <a title="" class="icon head" href="{{ url_for('my_page') }}"
+        ><img
+          style="display: none"
+          src="{{ url_for('static', filename='images/head.png') }}"
+          width="36"
+          height="36"
+          onerror="this.src='{{ url_for('static', filename='images/logo.png') }}'" /><span
+          class="tip"
+          id="subscribe"
+        ></span
+      ></a>
+    </div>
+    <!--head end-->
+
+    <!--个人栏-->
+    <div class="PersonBar">
+        <div class="photo">
+          <a href="{{ url_for('accinfo') }}">
+          <img src="{{ url_for('static', filename='images/Users/' ~ userpic ~ '.jpg') }}" width="135" height="135" onerror="this.src=''"></a></div>
+        <div class="txtBox">
+            <p class="name" id="name">{{ username }}</p>
+        </div>
+    </div>
+
+    <ul class="FloorBox">
+        <li>
+            <a href="{{ url_for('static', filename='images/todo/vip.png') }}">
+                <span class="icon"></span>
+                <span class="title">Vip Member</span>
+            </a>
+        </li>
+        <li><a href="{{ url_for('static', filename='images/todo/author.png') }}">
+                <span class="icon"></span>
+                <span class="title">Author Function</span>
+            </a>
+        </li>
+        <li>
+          <a href="{{ url_for('static', filename='images/todo/goals.png') }}">
+            <span class="icon"></span>
+            <span class="title">Reading Goals</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ url_for('idea') }}" onClick="">
+            <span class="icon"></span>
+            <span class="title">BookMark</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ url_for('history') }}" onClick="">
+            <span class="icon"></span>
+            <span class="title">History</span>
+          </a>
+        </li>
+        <!--<li><a><span class="icon"></span><span class="title">我的书签</span><span class="Point"></span></a></li>
+        <li><a><span class="icon"></span><span class="title">收藏的书单</span><span class="Point"></span></a></li>-->
+    </ul>
+    <a class="LogOutBtn" onClick="userSubmit()" href="{{ url_for('logout') }}">Log out</a>
+
+
+	<div class="bottom">
+        <div class="pageLine">
+            <img src="{{ url_for('static', filename='images/Line10.png') }}" width="100%">
+        </div>
+        <ul class="subNav">
+          <li><a href="index.html" class="cur" title="Home">HOME</a></li>
+          <li><a href="latest.html" title="Update">UPDATE</a></li>
+          <li><a href="rank.html" title="Ranking">RANKING</a></li>
+          <li class="nobor">
+            <a href="bookshelves.html" title="Bookshelve">BOOKSHELF</a>
+          </li>
+        </ul>
+
+        <p class="record"><a href="/aboutus/aboutus.html">About us</a></p>
+    </div>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1d1ba6435e70528fbdfb02bba4e50e9a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+  </body>
+</html>

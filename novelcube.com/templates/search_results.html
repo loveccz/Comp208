@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel Reader, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>  <!--changed-->
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>  <!--changed-->
+
+  </head>
+<body>
+    <script>
+      $(function () {
+        UserCookie();
+        subscribeUnread();
+        if (nc_global.isLogin == true) {
+          $(".head img").show().attr("src", nc_global.userPhoto);
+        }
+      });
+    </script>
+    <!--head-->
+    <div class="header">
+      <!--搜索-->
+      <div class="serCh" id="serCh" style="dispaly:block;">
+          <form id="searchForm" action="/search" method="get">
+              <button type="submit" class="searBtn"></button>
+              <a class="searClose" onclick="nc_global.closed('serCh')"></a>
+            <div class="serChinputBox">
+              <input
+                type="search"
+                class="searInput"
+                placeholder="Book title or author"
+                name="query"
+                id="searInput"
+                required
+              />
+            </div>
+          </form>
+      </div>
+
+
+      <div class="messagSjr">
+        <ul class="keyTit" id="messagelist"></ul>
+        <p id="hotTit">Discover:</p>
+        <ul class="tag" id="HotTag"></ul>
+      </div>
+      <!--搜索 end-->
+      <div class="logo">
+        <a href="{{ url_for('my_page') }}"><img src="{{ url_for('static', filename='images/creper.png') }}" width="40" height="40" /></a>
+      </div>
+      <a
+        href="javascript:;"
+        title=""
+        class="icon serch"
+        onClick="nc_global.serchAction('serCh')"
+      ></a>
+      <a title="" class="icon head" href="{{ url_for('my_page') }}"
+        ><img
+          style="display: none"
+          src="{{ url_for('static', filename='images/head.png') }}"
+          width="36"
+          height="36"
+          onerror="this.src='{{ url_for('static', filename='images/logo.png') }}'" /><span
+          class="tip"
+          id="subscribe"
+        ></span
+      ></a>
+    </div>
+    <!--head end-->
+
+    <div class="UpdateList">
+        <h1>Search Results</h1>
+        <p>You searched for: <strong>{{ search_query }}</strong></p>
+
+        {% if results %}
+            {% for result in results %}
+                <div class="itemBox">
+                    <div class="itemImg">
+                        <a href="{{ url_for('book_detail', epub=result['epub']) }}" title="{{ result['title'] }}">
+                            <img src="{{ url_for('static', filename='webpic/' ~ result['epub'] ~ '/270x360.jpg') }}"
+                                 onerror="this.src='{{ url_for('static', filename='webpic/' ~ result['epub'] ~ '/270x360.png') }}';"
+                                 width="100%">
+                        </a>
+                    </div>
+                    <div class="itemTxt">
+                        <a class="title" href="{{ url_for('book_detail', epub=result['epub']) }}" title>{{ result['title'] }}</a>
+                        <p class="txtItme">Author: {{ result['author'] }}<span class="icon icon01"></span></p>
+                        <!-- You can add more book details here like in rank.html -->
+                        <p class="txtItme">
+                            <span class="icon icon02"></span>
+                            <span class="pd">{{ result['category_1'] }}</span>
+                            <span class="pd">{{ result['category_2'] }}</span>
+                        </p>
+                        <p class="txtItme">
+                            <span class="icon icon03"></span>
+                            <span class="date">Updated Time: {{ result['Update_time'] }}</span>
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No results found.</p>
+        {% endif %}
+    </div>
+
+    <div class="bottom">
+        <div class="pageLine">
+            <img src="{{ url_for('static', filename='images/Line10.png') }}" width="100%">
+        </div>
+        <ul class="subNav">
+          <li><a href="index.html" class="cur" title="Home">HOME</a></li>
+          <li><a href="latest.html" title="Update">UPDATE</a></li>
+          <li><a href="rank.html" title="Ranking">RANKING</a></li>
+          <li class="nobor">
+            <a href="bookshelves.html" title="Bookshelve">BOOKSHELF</a>
+          </li>
+        </ul>
+    </div>
+
+    <div id="loadding" style="display: none;">Loading...</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forgot Password</title>
+ <link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+</head>
+<body>
+<form action="{{ url_for('forgot_password') }}" method="post">  <!--changed-->
+  <h1>Forgot your Password?</h1>
+  <input type="text" name="email_or_phone" placeholder="Email Address / Mobile Number" required />
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>

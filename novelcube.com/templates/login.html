@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>User Login --- NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet" type="text/css" />  <!-- changed-->
+
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"  <!-- changed-->
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/jquery.cookie.js') }}"  <!-- changed-->
+      charset="UTF-8"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/common.js') }}" <!-- changed-->
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/domain.js') }}" <!-- changed-->
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/nc_reader.js') }}"  <!-- changed-->
+    ></script>
+    <script type="text/javascript" src="js/TSB.js"></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/main.js') }}"  <!-- changed-->
+    ></script>
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/nc_regis.js') }}"  <!-- changed-->
+    ></script>
+    <style>
+      .xieyi {
+        font-size: 12px;
+        color: #585858;
+        margin-top: 15px;
+      }
+      .xieyi a {
+        color: black;
+      }
+    </style>
+
+    <div class="Login_logo"></div>
+    <div class="loginBox">
+      <form action="login.html" method="post" accept-charset="UTF-8">
+        <h1>Log in</h1>
+        <input
+          type="email"
+          name="email"
+          class="user-input"
+          id="userName"
+          placeholder="Email Address"
+        />
+        <p id="user_erro" style="display: none"></p>
+        <input
+          type="password"
+          name="password"
+          class="user-input"
+          id="passWord"
+          placeholder="Password"
+        />
+        <p id="pass_erro" style="display: none"></p>
+        <div class="right-align">
+          <a class="Forgot" href="forgot.html"
+            >Forgot password?</a
+          >
+        </div>
+        <button type="submit" class="LoginBtn">Continue</button>
+        <a class="Or">or</a>
+        <button type="submit" class="GoogleLoginBtn">Continue with Google</button>
+      </form>
+      <div class="footer">
+        <p>
+          Don't have an account?
+          <a href="signup.html">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

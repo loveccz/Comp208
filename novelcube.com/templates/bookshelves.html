@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel Reader, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>  <!--changed-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>  <!--changed-->
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>  <!--changed-->
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      .book-item {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .book-item .itemBox {
+        margin-bottom: 20px;
+      }
+
+      .book-cover {
+        width: 80px;
+        height: 120px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .book-cover a {
+        content: "new";
+        color: #fff;
+        background-color: #ff6347;
+        padding: 5px 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        font-size: 12px;
+      }
+
+      .book-details {
+        overflow: hidden;
+      }
+
+      .book-details h3 {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .book-details .author {
+        font-size: 16px;
+        color: #777;
+        margin: 5px 0;
+      }
+
+      .book-details .date {
+        font-size: 14px;
+        color: #aaa;
+      }
+
+      .book-actions {
+        overflow: hidden;
+        padding-top: 10px;
+      }
+
+      .book-actions a, .book-actions form button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-right: 10px;
+        border-radius: 20px;
+        font-size: 14px;
+        text-decoration: none;
+        border: none;
+        background-color: #cccccc;
+        color: #000;
+        cursor: pointer;
+      }
+
+      .book-actions form {
+        display: inline-block;
+      }
+
+      .book-actions a.read {
+        background-color: #418060;
+        color: #fff;
+      }
+
+      .delete {
+        background-color: #cccccc;
+        color: #000000;
+      }
+
+      .add-book {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        background-color: #ddd;
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+        text-decoration: none;
+        display: block;
+        margin-top: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      $(function () {
+        UserCookie();
+        subscribeUnread();
+        if (nc_global.isLogin == true) {
+          $(".head img").show().attr("src", nc_global.userPhoto);
+        }
+      });
+    </script>
+    <!--head-->
+    <div class="header">
+      <!--搜索-->
+        <div class="serCh" id="serCh" style="dispaly:block;">
+          <form id="searchForm" action="/search" method="get">
+              <button type="submit" class="searBtn"></button>
+              <a class="searClose" onclick="nc_global.closed('serCh')"></a>
+            <div class="serChinputBox">
+              <input
+                type="search"
+                class="searInput"
+                placeholder="Book title or author"
+                name="query"
+                id="searInput"
+                required
+              />
+            </div>
+          </form>
+        </div>
+
+      <div class="messagSjr">
+        <ul class="keyTit" id="messagelist"></ul>
+        <p id="hotTit">Discover:</p>
+        <ul class="tag" id="HotTag"></ul>
+      </div>
+      <!--搜索 end-->
+
+      <div class="logo">
+        <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/creper.png') }}" width="40" height="40" /></a>
+      </div>
+      <a
+        href="javascript:;"
+        title=""
+        class="icon serch"
+        onClick="nc_global.serchAction('serCh')"
+      ></a>
+      <a title="" class="icon head" href="{{ url_for('my_page') }}"
+        ><img
+          style="display: none"
+          src="{{ url_for('static', filename='images/head.png') }}"
+          width="36"
+          height="36"
+          onerror="this.src='{{ url_for('static', filename='images/logo.png') }}'" /><span
+          class="tip"
+          id="subscribe"
+        ></span
+      ></a>
+    </div>
+    <!--head end-->
+
+    <!--列表-->
+    <div class="UpdateList mt0">
+      <div class="TabBar">
+        <ul class="TabTit" id="TopComTit">
+          <li class="cur" onclick="mySubscribe.btnAction(this,0)">Subscribe</li>
+          <li onclick="mySubscribe.btnAction(this,1)">New Chapter</li>
+        </ul>
+      </div>
+    </div>
+
+<div class="container">
+    <div class="book-item">
+        {% for entry in bookshelf_entries %}
+        <div class="itemBox">
+            <div class="book-cover">
+                {% set image_path_png = 'webpic/' ~ entry.book.epub ~ '/' ~ entry.book.epub ~ '.png' %}
+                {% set image_path_jpg = 'webpic/' ~ entry.book.epub ~ '/' ~ entry.book.epub ~ '.jpg' %}
+                <!-- 尝试显示PNG图片，如果失败则回退到JPG -->
+                    <img src="{{ url_for('static', filename=image_path_png) }}"
+                         onerror="this.onerror=null;this.src='{{ url_for('static', filename=image_path_jpg) }}';"
+                         alt="{{ entry.book.title }}"
+                         width=80px>
+            </div>
+            <div class="book-details">
+                <h3><a class="title" href="{{ url_for('book_detail', epub=entry.book.epub) }}">{{ entry.book.title }}</a></h3>
+                <div class="author">Updated to: {{ entry.book.Update_chapter }} Chapter</div>
+                <div class="date">Updated Time: {{ entry.book.Update_time }}</div>
+                <!-- 其他信息，如分类、日期 -->
+            </div>
+            <!-- <div class="number">{{ loop.index }}</div> -->
+            <div class="book-actions">
+                <a id="continusRead" class="read" href="{{ url_for('static', filename='bibi/index.html', _external=True) }}?book=/static/bibi-bookshelf/pg{{entry.book.epub}}.epub" target="_blank">View</a>
+                <form action="{{ url_for('remove_from_bookshelf', book_id=entry.book.id) }}" method="post" style="display: inline;" >
+                    <button type="submit" class="delete">Unsubscribe</button>
+                </form>
+
+            </div>
+        </div>
+        {% else %}
+        <p>No books found on your bookshelf.</p>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+    <div class="bottom">
+      <div class="pageLine">
+          <img src="{{ url_for('static', filename='images/Line10.png') }}" width="100%">
+      </div>
+      <ul class="subNav">
+        <li><a href="index.html" class="cur" title="Home">HOME</a></li>
+        <li><a href="latest.html" title="Update">UPDATE</a></li>
+        <li><a href="rank.html" title="Ranking">RANKING</a></li>
+        <li class="nobor">
+          <a href="bookshelves.html" title="Bookshelve">BOOKSHELF</a>
+        </li>
+      </ul>
+  </div>
+  
+  </body>
+</html>

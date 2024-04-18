@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Pride and Prejudice, NOVEL CUBE</title>
+
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='static.nc.com/baidushare/js/logger.js') }}"></script>
+
+    <link
+      src="{{ url_for('static', filename='static.nc.com/baidushare/css/bdsstyle.css') }}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <style>
+      .header {
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+      .header a {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/sort.js') }}"></script>
+
+    <div class="Introduct">
+      <!--head-->
+      <div class="subHeader">
+        <div class="BarTit" id="comicName">Pride and Prejudice</div>
+        <a href="javascript:history.back()" class=iconRet title="Go back"></a>
+      </div>
+      <!--head end-->
+
+      <div class="Introduct_Sub autoHeight">
+        <div class="pic" id="Cover">
+          <img
+            src="{{ url_for('static', filename='webpic/2433/2433.jpg') }}"
+            width="100%"
+            title="Blue Castle"
+          />
+        </div>
+        <div class="sub_r">
+          <p class="txtItme">
+            <span class="icon icon01"></span>
+            <a class="pd" href="">Jane Austen</a>
+          </p>
+          <p class="txtItme">
+            <span class="icon icon02"></span>
+            <a class="pd" href="">Romantic</a>
+            <a class="pd" href="">Society</a>
+            <a class="pd" href="">History</a>
+          </p>
+          <p class="txtItme">
+            <span class="icon icon02"></span>
+            <a class="pd" href="">已完结</a>
+            <a class="pd" href=""></a>
+          </p>
+          <p class="txtItme">
+            <span class="icon icon03"></span>
+            <span class="date">2023-4-14 15:01</span>
+          </p>
+
+          <a class="Btn fl" id="continusRead" href="{{ url_for('static', filename='bibi/index.html', _external=True) }}?book=/static/bibi-bookshelf/pg2433.epub" target="_blank">View</a>
+
+          <form action="/add_to_bookshelf/6" method="post">
+            <input type="hidden" name="book_id" value="6">
+            <button class="Btn right" id="Subscribe" id="Subscribe">Add</button>
+          </form>
+        </div>
+      </div>
+
+      <p class="txtDesc autoHeight">Walt Whitman has somewhere a fine and just distinction between "loving by allowance" and "loving with personal love."
+      </p>
+
+      <p class="openBtn"></p>
+      <ul class="trdNav">
+        <li><span>Rating:</span><span>4.3</span></li>
+        <li>
+          <span>Language:</span><span>EN-US</span>
+        </li>
+        <li>
+          <span>Words:</span><span>130480</span>
+        </li>
+        <li>
+          <span>Publisher:</span><span>Gutenberg</span>
+        </li>
+      </ul>
+      
+      <!--章节-->
+      <div class="Sub_H2 autoHeight">
+        <a class="Seq asc"  onclick="sort.asc(jsonData)"></a>
+        <a class="Seq desc cur" onclick="sort.desc(jsonData)"></a>
+        <p class="SeqT">Sequence: </p>
+        <span class="icon Icon9"></span>
+        <span class="Title">List</span>
+    </div>
+
+      <div id="list">
+        <div class="qjBar"><span>61 Chapters</span></div>
+        <ul class="Drama autoHeight">
+          <li><a href="" onclick="chapterCookie(2433,149266,61,'Chapter61')"><span>Chapter 61</span><div class="new"></div></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,60,'Chapter60')"><span>Chapter 60</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,59,'Chapter59')"><span>Chapter 59</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,58,'Chapter58')"><span>Chapter 58</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,57,'Chapter57')"><span>Chapter 57</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,56,'Chapter56')"><span>Chapter 56</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,55,'Chapter55')"><span>Chapter 55</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,54,'Chapter54')"><span>Chapter 54</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,53,'Chapter53')"><span>Chapter 53</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,52,'Chapter52')"><span>Chapter 52</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,51,'Chapter51')"><span>Chapter 51</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,50,'Chapter50')"><span>Chapter 50</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,49,'Chapter49')"><span>Chapter 49</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,48,'Chapter48')"><span>Chapter 48</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,47,'Chapter47')"><span>Chapter 47</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,46,'Chapter46')"><span>Chapter 46</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,45,'Chapter45')"><span>Chapter 45</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,44,'Chapter44')"><span>Chapter 44</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,43,'Chapter43')"><span>Chapter 43</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,42,'Chapter42')"><span>Chapter 42</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,41,'Chapter41')"><span>Chapter 41</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,40,'Chapter40')"><span>Chapter 40</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,39,'Chapter39')"><span>Chapter 39</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,38,'Chapter38')"><span>Chapter 38</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,37,'Chapter37')"><span>Chapter 37</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,36,'Chapter36')"><span>Chapter 36</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,35,'Chapter35')"><span>Chapter 35</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,34,'Chapter34')"><span>Chapter 34</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,33,'Chapter33')"><span>Chapter 33</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,32,'Chapter32')"><span>Chapter 32</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,31,'Chapter31')"><span>Chapter 31</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,30,'Chapter30')"><span>Chapter 30</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,29,'Chapter29')"><span>Chapter 29</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,28,'Chapter28')"><span>Chapter 28</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,27,'Chapter27')"><span>Chapter 27</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,26,'Chapter26')"><span>Chapter 26</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,25,'Chapter25')"><span>Chapter 25</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,24,'Chapter24')"><span>Chapter 24</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,23,'Chapter23')"><span>Chapter 23</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,22,'Chapter22')"><span>Chapter 22</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,21,'Chapter21')"><span>Chapter 21</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,20,'Chapter20')"><span>Chapter 20</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,19,'Chapter19')"><span>Chapter 19</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,18,'Chapter18')"><span>Chapter 18</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,17,'Chapter17')"><span>Chapter 17</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,16,'Chapter16')"><span>Chapter 16</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,15,'Chapter15')"><span>Chapter 15</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,14,'Chapter14')"><span>Chapter 14</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,13,'Chapter13')"><span>Chapter 13</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,12,'Chapter12')"><span>Chapter 12</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,11,'Chapter11')"><span>Chapter 11</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,10,'Chapter10')"><span>Chapter 10</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,9,'Chapter09')"><span>Chapter 09</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,8,'Chapter08')"><span>Chapter 08</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,7,'Chapter07')"><span>Chapter 07</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,6,'Chapter06')"><span>Chapter 06</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,5,'Chapter05')"><span>Chapter 05</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,4,'Chapter04')"><span>Chapter 04</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149588,3,'Chapter03')"><span>Chapter 03</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,149266,2,'Chapter02')"><span>Chapter 02</span></a></li>
+          <li><a href="" onclick="chapterCookie(2433,143478,1,'Chapter01')"><span>Chapter 01</span></a></li>
+        </ul>
+      </div>
+      <!--章节end-->
+    </div>
+
+    <div id="Comment_m_Box">
+      <div class="newsmain_review" id="Comment_main">
+        <a name="comm"></a>
+        <div class="partLine"></div>
+        <div class="newsAll">
+            <h3 class="comment_til">Latest Review</h3>
+            <ul>
+                {% for comment in comments %}
+                <li>
+                    <div class="auimg">
+                        <!-- 假设每个用户都有一个图片文件与他们的id匹配，例如 '1.jpg' -->
+                        <img src="{{ url_for('static', filename='images/Users/' ~ comment.user.picid ~ '.jpg') }}" alt="Author" width="28px" />
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment_author">{{ comment.user.username }}</div>
+                        <div class="comment_date">{{ comment.timestamp.strftime('%Y-%m-%d') }}</div>
+                        <p>{{ comment.text }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+            <!-- 添加评论的表单,和你的不一样了，可能差的有点多 -->
+            <form action="{{ url_for('pg2433') }}" method="post">
+             <textarea name="comment_text" placeholder="Input..." required></textarea>
+             <input type="submit" value="Submit">
+           </form>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+      var obj_id = "2433";
+      var authoruid = "";
+      var is_Original = "1";
+      var comment_type = "4";
+      var isToggle = 0;
+      var dt = "week";
+    </script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='static.nc.com/module/js/mobile_New_Comment_20200309.js') }}"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='static.nc.com/public/css/swiper.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/mobile_n_comment.css') }}"
+    />
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='static.nc.com/public/js/swiper.min.js') }}"
+    ></script>
+
+  </body>
+</html>

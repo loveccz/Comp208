@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*焦点图*/
+.main_visual{overflow:hidden;position:relative;top:0;margin-bottom: 10px;}
+.main_image{overflow:hidden;position:relative;}
+.main_image ul{ width:100%;overflow:hidden;position:absolute;top:0;left:0}
+.main_image li{ width:100%; float:left;}
+.main_image li a{display:block;width:100%;}
+.main_image .mBar{ height:80px; background:#000; position:absolute; bottom:0; width:100%;}
+.flicking_con{position:absolute;bottom:8px;right:0;z-index:98;width:56px; text-align:center; font-size:0;height:10px;}
+.flicking_con a{float:left;width:4px;height:4px;padding:0;display:block;text-indent:-1000px;margin:1px 5px 0 0; border-radius: 100px;background:rgba(255,255,255,.4);}
+.flicking_con a.on{ width: 6px; height: 6px; margin-top: 0; background:rgba(255,255,255,1);}
+.flicking_conTit{ z-index:5; background: rgba(0,144,255,0.8); padding:5px 0; width:100%; position:absolute; bottom:-3px; height:25px; line-height:25px; color:#fff}
+.flicking_conTit span{ display:none; color:#fff}
+.flicking_conTit span.on{ width:100%; display:block; color:#fff; height:40px; font-size:14px; padding-left:10px;}
+

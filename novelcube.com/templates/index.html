@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Online Novel,Mobile Novel,NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />  <!--changed-->
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>
+    <script type="text.javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+  </head>
+
+  <body>
+    <script>
+      $(function () {
+        UserCookie();
+        subscribeUnread();
+        if (nc_global.isLogin == true) {
+          $(".head img").show().attr("src", nc_global.userPhoto);
+        }
+      });
+    </script>
+    <!--head-->
+    <div class="header">
+      <!--搜索-->
+      <div class="serCh" id="serCh" style="dispaly:block;">
+          <form id="searchForm" action="/search" method="get">
+              <button type="submit" class="searBtn"></button>
+              <a class="searClose" onclick="nc_global.closed('serCh')"></a>
+            <div class="serChinputBox">
+              <input
+                type="search"
+                class="searInput"
+                placeholder="Book title or author"
+                name="query"
+                id="searInput"
+                required
+              />
+            </div>
+          </form>
+      </div>
+
+
+      <div class="messagSjr">
+        <ul class="keyTit" id="messagelist"></ul>
+        <p id="hotTit">Recommendations for search content:</p>
+        <ul class="tag" id="HotTag"></ul>
+      </div>
+      <!--搜索 end-->
+
+      <div class="logo">
+        <a><img src="{{ url_for('static', filename='images/creper.png') }}" width="40" height="40" /></a>
+      </div>
+      <a
+        href="javascript:;"
+        title=""
+        class="icon serch"
+        onClick="nc_global.serchAction('serCh')"
+      ></a>
+      <a title="" class="icon head" href="{{ url_for('my_page') }}"
+        ><img
+          style="display: none"
+          src="{{ url_for('static', filename='images/head.png') }}"
+          width="36"
+          height="36"
+          onerror="this.src='{{ url_for('static', filename='images/logo.png') }}'" /><span
+          class="tip"
+          id="subscribe"
+        ></span
+      ></a>
+    </div>
+    <!--head end-->
+
+    <!--焦点图-->
+    <div class="main_visual" style="height: 400px; background: #000">
+      <div class="flicking_con">
+        <a href="#">0</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+      </div>
+
+      <div class="flicking_conTit">
+        <span>Explore the Magical World: The Harry Potter Book Series</span>
+        <span>Experience the Timeless Epic: "War and Peace" by Leo Tolstoy</span>
+        <span>Explore the Epic Sci-Fi Series: The Three-Body Problem Trilogy</span>
+      </div>
+
+      <div class="main_image">
+        <ul>
+          <li>
+            <a href="{{ url_for('static', filename='tuijian/231214.html') }}">
+              <img
+                src="{{ url_for('static', filename='tuijian/231214.jpg') }}"
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="{{ url_for('static', filename='tuijian/231124.html') }}">
+              <img
+                src="{{ url_for('static', filename='tuijian/231124.jpg') }}"  <!--changed-->
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="{{ url_for('static', filename='tuijian/231130.html') }}">
+              <img
+                src="{{ url_for('static', filename='tuijian/231130.jpg') }}"  <!--changed-->
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/IndexTouchSlider.js') }}"></script>  <!--changed-->
+    <script>
+      $(function () {
+        updateRecommends(36);
+        nc_global.navStyle(0);
+      });
+    </script>
+
+    <div class="imgBox">
+        
+        <div class="Sub_H2">
+            <span class="icon"><img src="{{ url_for('static', filename='images/hot.png') }}"/></span>  <!--changed-->
+            <span class="Title">Hot Books</span>
+            <span></span>
+        </div>
+
+        <ul class="col_3_1" id="34">
+            <li>
+                <a class="ImgA" href="{{ url_for('pg2433') }}">
+                    <img src="{{ url_for('static', filename='webpic/2433/270x360.jpg') }}" width="100%" />  <!--changed-->
+                </a>
+                <a class="txtA">Pride and Prejudice</a>
+                <span class="info">Jane Austen</span>
+            </li>
+            <li>
+                <a class="ImgA" href="{{ url_for('pg2600') }}">
+                    <img src="{{ url_for('static', filename='webpic/2600/270x360.jpg') }}" width="100%" />  <!--changed-->
+                </a>
+                <a class="txtA">War and Peace</a>
+                <span class="info">graf Leo Tolstoy</span>
+            </li>
+            <li>
+                <a class="ImgA" href="{{ url_for('pg2429') }}">
+                    <img src="{{ url_for('static', filename='webpic/2429/270x360.jpg') }}" width="100%" />  <!--changed-->
+                </a>
+                <a class="txtA">Alice In Wonderland</a>
+                <span class="info">LEWIS CARROLL</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="imgBox">
+        <div class="Sub_H2">
+            <span class="icon"><img src="{{ url_for('static', filename='images/love.png') }}"></span>  <!--changed-->
+            <span class="Title">Personal</span>
+            <span class="icon_Upda" onclick="updateRecommends(35)"></span>
+        </div>
+
+        <ul class="col_3_1" id="34">
+            <li>
+                <a class="ImgA" href="{{ url_for('pg3072') }}">
+                    <img src="{{ url_for('static', filename='webpic/3072/270x360.jpg') }}" width="100%" />  <!--changed-->
+                </a>
+                <a class="txtA">A Story of Rebel Military Prisons</a>
+                <span class="info">John McElroy</span>
+            </li>
+            <li>
+                <a class="ImgA" href="{{ url_for('pg203') }}">
+                    <img src="{{ url_for('static', filename='webpic/203/270x360.jpg') }}" width="100%" />  <!--changed-->
+                </a>
+                <a class="txtA">Uncle Tom's Cabin</a>
+                <span class="info">Harriet Beecher Stowe</span>
+            </li>
+            <li>
+                <a class="ImgA" href="{{ url_for('pg8801') }}">
+                    <img src="{{ url_for('static', filename='webpic/8801/270x360.jpg') }}" width="100%" />  <!--changed-->
+                </a>
+                <a class="txtA">Drum-Taps</a>
+                <span class="info">Walt Whitman</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bottom">
+        <div class="pageLine">
+            <img src="{{ url_for('static', filename='images/Line10.png') }}" width="100%">  <!--changed-->
+        </div>
+        <ul class="subNav">
+            <li><a href="index.html" class="cur" title="Home">HOME</a></li>
+            <li><a href="latest.html" title="Update">UPDATE</a></li>
+            <li><a href="rank.html" title="Ranking">RANKING</a></li>
+            <li class="nobor">
+              <a href="bookshelves.html" title="Bookshelve">BOOKSHELF</a>
+            </li>
+        </ul>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta name="wap-font-scale" content="no" />
+    <meta name="Keywords" content="e-reader,reader,novel,cube" />
+    <meta
+      name="Description"
+      content="War, Romantic, Fantasy, Society, Adventure, History"
+    />
+    <title>Uncle Tom's Cabin, NOVEL CUBE</title>
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.cookie.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/common.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/domain.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/nc_reader.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/TSB.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='static.nc.com/baidushare/js/logger.js') }}"></script>
+    <link
+      src="{{ url_for('static', filename='static.nc.com/baidushare/css/bdsstyle.css') }}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <style>
+      .header {
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+      .header a {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/sort.js') }}"></script>
+
+    <div class="Introduct">
+      <!--head-->
+      <div class="subHeader">
+        <div class="BarTit" id="comicName">Blue Castle</div>
+        <a href="javascript:history.back()" class="iconRet" title="Go back"></a>
+      </div>
+      <!--head end-->
+
+      <div class="Introduct_Sub autoHeight">
+        <div class="pic" id="Cover">
+          <img
+            src="{{ url_for('static', filename='webpic/2416/2416.jpg') }}"
+            width="100%"
+            title="Blue Castle"
+          />
+        </div>
+        <div class="sub_r">
+          <p class="txtItme">
+            <span class="icon icon01"></span>
+            <a class="pd" href="">L. M. MONTGOMERY</a>
+          </p>
+          <p class="txtItme">
+            <span class="icon icon02"></span>
+            <a class="pd" href="">Freedom</a>
+            <a class="pd" href="">Romantic</a>
+            <a class="pd" href="">Psychology</a>
+          </p>
+          <p class="txtItme">
+            <span class="icon icon02"></span>
+            <a class="pd" href="">Ongoing</a>
+            <a class="pd" href=""></a>
+          </p>
+          <p class="txtItme">
+            <span class="icon icon03"></span>
+            <span class="date">2021-10-28 20:47</span>
+          </p>
+
+          <a class="Btn fl" id="continusRead" href="{{ url_for('static', filename='bibi/index.html', _external=True) }}?book=/static/bibi-bookshelf/pg2416.epub" target="_blank">View</a>
+          <a class="Btn right" id="Subscribe" href="{{ url_for('pg2416') }}"
+            >Info</a
+          >
+        </div>
+      </div>
+
+      <div class="comment-box">
+        <li>
+          <img
+            src="../../static/images/personal/paint-brush-front-color.png"
+            class="comment-icon"
+          />
+          <div class="comment-text">
+            <h3>Chapter 45:</h3>
+            <p>not bad</p>
+          </div>
+        </li>
+      </div>
+    </div>
+  </body>
+</html>

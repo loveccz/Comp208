@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Reading</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- read_book.html -->
+    <a class="Btn fl" id="continusRead" href="{{ url_for('static', filename='bibi/index.html', _external=True) }}?book=static/bibi-bookshelf/{{ book_id }}.epub" target="_blank">立刻观看</a>
+
+</body>
+</html>
